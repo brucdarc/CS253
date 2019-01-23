@@ -1,0 +1,75 @@
+Testing Document Matching Algorithm
+  Testing on small testcases with wide reading level range
+input_testcases/PA8_testcases/small_testcases/t2
+input_testcases/PA8_testcases/small_testcases/t1
+input_testcases/PA8_testcases/small_testcases/t1
+input_testcases/PA8_testcases/small_testcases/t5
+input_testcases/PA8_testcases/small_testcases/t4
+  Testing on medium testcases with wide reading level range
+input_testcases/PA8_testcases/medium_testcases/t2
+input_testcases/PA8_testcases/medium_testcases/t8
+input_testcases/PA8_testcases/medium_testcases/t8
+input_testcases/PA8_testcases/medium_testcases/t2
+input_testcases/PA8_testcases/medium_testcases/t8
+input_testcases/PA8_testcases/medium_testcases/t2
+input_testcases/PA8_testcases/medium_testcases/t2
+input_testcases/PA8_testcases/medium_testcases/t3
+input_testcases/PA8_testcases/medium_testcases/t5
+  Testing on large testcases with wide reading level range
+input_testcases/PA8_testcases/large_testcases/t2
+input_testcases/PA8_testcases/large_testcases/t1
+input_testcases/PA8_testcases/large_testcases/t2
+input_testcases/PA8_testcases/large_testcases/t3
+input_testcases/PA8_testcases/large_testcases/t2
+  Testing on small testcases with thin reading level range
+input_testcases/PA8_testcases/small_testcases/t2
+input_testcases/PA8_testcases/small_testcases/t1
+input_testcases/PA8_testcases/small_testcases/t1
+input_testcases/PA8_testcases/small_testcases/t1
+input_testcases/PA8_testcases/small_testcases/t1
+input_testcases/PA8_testcases/small_testcases/t4
+input_testcases/PA8_testcases/small_testcases/t4
+input_testcases/PA8_testcases/small_testcases/t4
+input_testcases/PA8_testcases/small_testcases/t5
+input_testcases/PA8_testcases/small_testcases/t4
+  Testing on medium testcases with thin reading level range
+No matches found for given query document and reading level range.
+No matches found for given query document and reading level range.
+No matches found for given query document and reading level range.
+No matches found for given query document and reading level range.
+No matches found for given query document and reading level range.
+No matches found for given query document and reading level range.
+No matches found for given query document and reading level range.
+No matches found for given query document and reading level range.
+No matches found for given query document and reading level range.
+No matches found for given query document and reading level range.
+No matches found for given query document and reading level range.
+No matches found for given query document and reading level range.
+No matches found for given query document and reading level range.
+No matches found for given query document and reading level range.
+No matches found for given query document and reading level range.
+No matches found for given query document and reading level range.
+No matches found for given query document and reading level range.
+No matches found for given query document and reading level range.
+  Testing on large testcases with thin reading level range
+input_testcases/PA8_testcases/large_testcases/t2
+No matches found for given query document and reading level range.
+input_testcases/PA8_testcases/large_testcases/t2
+input_testcases/PA8_testcases/large_testcases/t2
+input_testcases/PA8_testcases/large_testcases/t2
+No matches found for given query document and reading level range.
+No matches found for given query document and reading level range.
+No matches found for given query document and reading level range.
+No matches found for given query document and reading level range.
+No matches found for given query document and reading level range.
+Testing all Metafile Parsing:
+  5 INVALID Tests, expect 5 errors:
+Error encountered while opening file
+Insufficient filenames provided in background file.
+Error encountered while handling exception file
+Insufficient filenames provided in background file.
+Error encountered while opening file
+  3 VALID Tests, expect no errors:
+input_testcases/PA8_testcases/small_testcases/t5
+input_testcases/PA8_testcases/small_testcases/t2
+input_testcases/PA8_testcases/small_testcases/t1

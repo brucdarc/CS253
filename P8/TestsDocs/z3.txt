@@ -1,0 +1,6 @@
+I noticed there are some special symbol/characters in some of the files, i.e., Ωmega 1.39794, æ 0.69897, əl 0.69897, §2 1.39794, etc.  
+Which I included the corresponding TFIDF for as well.  @167 test3 has the same issue with there being a special character in "that�s". 
+Maybe these strings are parsed differently in your program?
+Not sure what would be different, being all the other test cases match.
+
+Thank you for sharing these!

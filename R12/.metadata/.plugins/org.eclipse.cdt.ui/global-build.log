@@ -1,0 +1,208 @@
+15:12:57 **** Build of configuration Debug for project DOUBLEDOWN ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: DOUBLEDOWN
+Invoking: GCC C++ Linker
+g++  -o "DOUBLEDOWN"  ./main.o   
+Finished building target: DOUBLEDOWN
+ 
+
+**** Build of configuration Debug for project R12 ****
+
+Nothing to build for project R12
+15:12:58 **** Build of configuration Default for project testMake ****
+make all 
+make: *** No rule to make target 'all'.  Stop.
+15:13:02 **** Incremental Build of configuration Debug for project DOUBLEDOWN ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: DOUBLEDOWN
+Invoking: GCC C++ Linker
+g++  -o "DOUBLEDOWN"  ./main.o   
+Finished building target: DOUBLEDOWN
+ 
+15:14:04 **** Incremental Build of configuration Debug for project DOUBLEDOWN ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project R12 ****
+
+Nothing to build for project R12
+15:14:04 **** Incremental Build of configuration Default for project testMake ****
+make all 
+make: *** No rule to make target 'all'.  Stop.
+15:15:20 **** Incremental Build of configuration Debug for project DOUBLEDOWN ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project R12 ****
+
+Nothing to build for project R12
+15:15:20 **** Incremental Build of configuration Default for project testMake ****
+make all 
+make: *** No rule to make target 'all'.  Stop.
+15:15:31 **** Incremental Build of configuration Debug for project DOUBLEDOWN ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project R12 ****
+
+Nothing to build for project R12
+15:15:31 **** Incremental Build of configuration Default for project testMake ****
+make all 
+g++; main.cpp -o main
+g++: fatal error: no input files
+compilation terminated.
+/bin/sh: ./main.cpp: Permission denied
+makefile:6: recipe for target 'main' failed
+make: *** [main] Error 126
+15:16:23 **** Incremental Build of configuration Debug for project DOUBLEDOWN ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project R12 ****
+
+Nothing to build for project R12
+15:16:23 **** Incremental Build of configuration Default for project testMake ****
+make all 
+g++ main.cpp -o main
+15:16:28 **** Incremental Build of configuration Default for project testMake ****
+make all 
+make: Nothing to be done for 'all'.
+15:17:38 **** Incremental Build of configuration Default for project testMake ****
+make all 
+make: Nothing to be done for 'all'.
+15:18:31 **** Incremental Build of configuration Debug for project DOUBLEDOWN ****
+make all 
+make: Nothing to be done for 'all'.
+15:18:31 **** Build of configuration Default for project PA8 ****
+make all 
+make: *** No rule to make target 'all'.  Stop.
+
+**** Build of configuration Debug for project R12 ****
+
+Nothing to build for project R12
+15:18:31 **** Incremental Build of configuration Default for project testMake ****
+make all 
+make: Nothing to be done for 'all'.
+15:19:15 **** Incremental Build of configuration Debug for project DOUBLEDOWN ****
+make all 
+make: Nothing to be done for 'all'.
+15:19:15 **** Incremental Build of configuration Default for project PA8 ****
+make all 
+make: *** No rule to make target 'all'.  Stop.
+
+**** Build of configuration Debug for project R12 ****
+
+Nothing to build for project R12
+15:19:15 **** Incremental Build of configuration Default for project testMake ****
+make all 
+make: Nothing to be done for 'all'.
+15:20:01 **** Incremental Build of configuration Debug for project DOUBLEDOWN ****
+make all 
+make: Nothing to be done for 'all'.
+15:20:01 **** Incremental Build of configuration Default for project PA8 ****
+make all 
+g++ main.cpp -I. -I../lib/ -Wall -c -O3
+g++ FileCount.cpp -I. -I../lib/ -Wall -c -O3
+g++ StringTest.cpp -I. -I../lib/ -Wall -c -O3
+g++ GrammarMachine.cpp -I. -I../lib/ -Wall -c -O3
+g++ Except.cpp -I. -I../lib/ -Wall -c -O3
+g++ AddExceptions.cpp -I. -I../lib/ -Wall -c -O3
+g++ Word.cpp -I. -I../lib/ -Wall -c -O3
+g++ Document.cpp -I. -I../lib/ -Wall -c -O3
+g++ DocManager.cpp -I. -I../lib/ -Wall -c -O3
+g++ main.o FileCount.o StringTest.o GrammarMachine.o Except.o AddExceptions.o Word.o Document.o DocManager.o -I. -I../lib/ -Wall -O3 -o PA8
+
+**** Build of configuration Debug for project R12 ****
+
+Nothing to build for project R12
+15:20:06 **** Incremental Build of configuration Default for project testMake ****
+make all 
+make: Nothing to be done for 'all'.
+15:20:12 **** Incremental Build of configuration Default for project PA8 ****
+make all 
+make: Nothing to be done for 'all'.
+15:20:49 **** Incremental Build of configuration Default for project PA8 ****
+make all 
+make: Nothing to be done for 'all'.
+15:23:39 **** Incremental Build of configuration Default for project PA8 ****
+make all 
+make: Nothing to be done for 'all'.
+15:24:12 **** Incremental Build of configuration Default for project PA8 ****
+make all 
+make: Nothing to be done for 'all'.
+15:24:32 **** Incremental Build of configuration Default for project PA8 ****
+make all 
+make: Nothing to be done for 'all'.
+15:24:53 **** Incremental Build of configuration Default for project PA8 ****
+make all 
+make: Nothing to be done for 'all'.
+15:26:34 **** Incremental Build of configuration Default for project PA8 ****
+make all 
+make: Nothing to be done for 'all'.
+15:27:02 **** Incremental Build of configuration Debug for project DOUBLEDOWN ****
+make all 
+make: Nothing to be done for 'all'.
+15:27:03 **** Incremental Build of configuration Default for project PA8 ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project R12 ****
+
+Nothing to build for project R12
+15:27:03 **** Incremental Build of configuration Default for project testMake ****
+make all 
+make: Nothing to be done for 'all'.
+15:27:08 **** Incremental Build of configuration Default for project PA8 ****
+make all 
+make: Nothing to be done for 'all'.
+15:28:58 **** Incremental Build of configuration Default for project PA8 ****
+make all 
+make: Nothing to be done for 'all'.
+15:29:28 **** Incremental Build of configuration Default for project PA8 ****
+make all 
+make: Nothing to be done for 'all'.
+15:29:49 **** Incremental Build of configuration Default for project PA8 ****
+make all 
+make: Nothing to be done for 'all'.
+15:30:57 **** Incremental Build of configuration Debug for project DOUBLEDOWN ****
+make all 
+make: Nothing to be done for 'all'.
+15:30:57 **** Incremental Build of configuration Default for project PA8 ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project R12 ****
+
+Nothing to build for project R12
+15:30:57 **** Incremental Build of configuration Default for project testMake ****
+make all 
+make: Nothing to be done for 'all'.
+15:30:59 **** Incremental Build of configuration Debug for project DOUBLEDOWN ****
+make all 
+make: Nothing to be done for 'all'.
+15:30:59 **** Incremental Build of configuration Default for project PA8 ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project R12 ****
+
+Nothing to build for project R12
+15:30:59 **** Incremental Build of configuration Default for project testMake ****
+make all 
+make: Nothing to be done for 'all'.
+15:31:12 **** Incremental Build of configuration Default for project PA8 ****
+make all 
+make: Nothing to be done for 'all'.
+15:35:32 **** Incremental Build of configuration Default for project PA8 ****
+make all 
+make: Nothing to be done for 'all'.

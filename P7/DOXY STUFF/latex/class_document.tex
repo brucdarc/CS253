@@ -1,0 +1,111 @@
+\section{Document Class Reference}
+\label{class_document}\index{Document@{Document}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Document} (vector$<$ \textbf{ Word} $>$ words)
+\begin{DoxyCompactList}\small\item\em \doxyref{Document}{p.}{class_document} constructor. \end{DoxyCompactList}\item 
+\mbox{\label{class_document_a8bfc233957cb693ee6b6a08d30b36770}} 
+bool {\bfseries contains} (const \textbf{ Word} \&w) const
+\item 
+\mbox{\label{class_document_ad2452dc9e2ab9ca42b3f6ae8e2b80006}} 
+bool {\bfseries add} (\textbf{ Word} w)
+\item 
+\mbox{\label{class_document_afc88d7d8bf4e96978e5347dd9db51a16}} 
+bool {\bfseries set\+T\+F\+I\+D\+Fs} (vector$<$ \textbf{ Document} $>$ \&Docs)
+\item 
+\mbox{\label{class_document_ae59784a5004cd9a7970c336463ab5d7d}} 
+bool {\bfseries set\+T\+F\+I\+DF} (vector$<$ \textbf{ Document} $>$ \&Docs, \textbf{ Word} \&w)
+\item 
+\mbox{\label{class_document_ad932bac6f48469dee51321ef234e9594}} 
+double {\bfseries get\+I\+DF} (vector$<$ \textbf{ Document} $>$ \&Docs, \textbf{ Word} \&w)
+\item 
+\mbox{\label{class_document_a21c73e55813bcc6e220957a0620d2668}} 
+double {\bfseries Sim} (\textbf{ Document} \&Other)
+\item 
+\mbox{\label{class_document_a62635876a5e299b66b43e0011562d0f6}} 
+\textbf{ Word} \& {\bfseries at} (int index)
+\item 
+\mbox{\label{class_document_acb74ff9c289a001e2ceb0ef7651326da}} 
+\textbf{ Word} \& {\bfseries find} (\textbf{ Word} \&w)
+\item 
+\mbox{\label{class_document_abb36ec85ca0cdbcd3871f9d7dc289165}} 
+int {\bfseries find\+Index} (\textbf{ Word} \&w, int min, int max)
+\item 
+int \textbf{ get\+Num\+Sents} ()
+\item 
+\mbox{\label{class_document_a2c76358f0a0be7338f40ddbe20a62bc4}} 
+int {\bfseries get\+Num\+Alpha\+Words} ()
+\item 
+\mbox{\label{class_document_af8b241d3e5b2f9fc9aae5aa5e3827511}} 
+int {\bfseries get\+Num\+Alpha\+Words\+Chars} ()
+\item 
+\mbox{\label{class_document_ab0ea48deae379c1f554a9b53b2857aa0}} 
+double {\bfseries getS} ()
+\item 
+\mbox{\label{class_document_ab8fa0d22151e2d8dcfd30f5d1ad87bd0}} 
+double {\bfseries getL} ()
+\item 
+\mbox{\label{class_document_af01ab67540e7a6f10c975ae7f78c9b6f}} 
+bool {\bfseries get\+Fail} ()
+\item 
+\mbox{\label{class_document_a82590d5f00879ce5ac57b637fae639a9}} 
+double {\bfseries get\+Reading\+Level} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\label{class_document_a37c3255cad8619ab3b7713413c5640f4}} 
+\index{Document@{Document}!Document@{Document}}
+\index{Document@{Document}!Document@{Document}}
+\subsubsection{Document()}
+{\footnotesize\ttfamily Document\+::\+Document (\begin{DoxyParamCaption}\item[{vector$<$ \textbf{ Word} $>$}]{words }\end{DoxyParamCaption})}
+
+
+
+\doxyref{Document}{p.}{class_document} constructor. 
+
+Takes in a vector of words, and sorts in using the standard sort algorithm Some operators in the word class are overloaded to support standard functions being able to work on the words.
+
+
+\begin{DoxyCode}
+*std::sort(wds.begin(), wds.end());
+\end{DoxyCode}
+
+
+
+\begin{DoxyParams}{Parameters}
+{\em words} & Vector of words that will be sorted\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+its a constructor
+\end{DoxyReturn}
+\begin{DoxyWarning}{Warning}
+words vector should have no words with duplicate strings 
+\end{DoxyWarning}
+
+
+\subsection{Member Function Documentation}
+\mbox{\label{class_document_a740fd89636e5526af1f17c5ab17c2316}} 
+\index{Document@{Document}!get\+Num\+Sents@{get\+Num\+Sents}}
+\index{get\+Num\+Sents@{get\+Num\+Sents}!Document@{Document}}
+\subsubsection{get\+Num\+Sents()}
+{\footnotesize\ttfamily int Document\+::get\+Num\+Sents (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+@ brief get\+Num\+Sents
+
+uses the definition of sentence ending punctuation from stringtest to decide if something ends a sentence and counts how many strings have that property
+
+\begin{DoxyReturn}{Returns}
+number of sentences in the file. 
+\end{DoxyReturn}
+\begin{DoxyWarning}{Warning}
+sentence can be empty 
+\end{DoxyWarning}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Document.\+h\item 
+Document.\+cpp\end{DoxyCompactItemize}

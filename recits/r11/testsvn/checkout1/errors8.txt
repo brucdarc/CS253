@@ -1,0 +1,53 @@
+ frequencies : 110 : 110 : 1096.49 individual IFIDFS 33.1133 : 33.1133 WORD: Draw idf: 
+ frequencies : 342 : 342 : 10599.2 individual IFIDFS 102.952 : 102.952 WORD: Earth idf: 
+ frequencies : 150 : 150 : 8155.72 individual IFIDFS 90.309 : 90.309 WORD: Earth's idf: 
+ frequencies : 53 : 53 : 1018.2 individual IFIDFS 31.9092 : 31.9092 WORD: HIDE idf: 
+ frequencies : 112 : 112 : 1136.73 individual IFIDFS 33.7154 : 33.7154 WORD: arrow idf: 
+ frequencies : 64 : 64 : 1484.7 individual IFIDFS 38.5318 : 38.5318 WORD: earli idf: 
+ frequencies : 613 : 613 : 136207 individual IFIDFS 369.063 : 369.063 WORD: leave idf: 
+ frequencies : 673 : 673 : 41044 individual IFIDFS 202.593 : 202.593 WORD: nudg idf: 
+ frequencies : 161 : 161 : 2348.94 individual IFIDFS 48.4658 : 48.4658 WORD: nudgedown idf: 
+ frequencies : 162 : 162 : 2378.21 individual IFIDFS 48.7669 : 48.7669 WORD: nudgeright idf: 
+ frequencies : 214 : 214 : 16600 individual IFIDFS 128.841 : 128.841 WORD: onli idf: 
+ frequencies : 111 : 111 : 1116.52 individual IFIDFS 33.4143 : 33.4143 WORD: wu idf: 
+247978  frequencies : 110 : 110 : 1096.49 individual IFIDFS 33.1133 : 33.1133 WORD: Draw idf: 
+ frequencies : 112 : 107 : 1085.98 individual IFIDFS 33.7154 : 32.2102 WORD: arrow idf: 
+ frequencies : 673 : 673 : 41044 individual IFIDFS 202.593 : 202.593 WORD: nudg idf: 
+ frequencies : 161 : 161 : 2348.94 individual IFIDFS 48.4658 : 48.4658 WORD: nudgedown idf: 
+ frequencies : 162 : 162 : 2378.21 individual IFIDFS 48.7669 : 48.7669 WORD: nudgeright idf: 
+ frequencies : 111 : 111 : 1116.52 individual IFIDFS 33.4143 : 33.4143 WORD: wu idf: 
+56878.7 177.126 182.675 
+ frequencies : 110 : 110 : 1096.49 individual IFIDFS 33.1133 : 33.1133 WORD: Draw idf: 
+ frequencies : 107 : 112 : 1085.98 individual IFIDFS 32.2102 : 33.7154 WORD: arrow idf: 
+ frequencies : 673 : 673 : 41044 individual IFIDFS 202.593 : 202.593 WORD: nudg idf: 
+ frequencies : 161 : 161 : 2348.94 individual IFIDFS 48.4658 : 48.4658 WORD: nudgedown idf: 
+ frequencies : 162 : 162 : 2378.21 individual IFIDFS 48.7669 : 48.7669 WORD: nudgeright idf: 
+ frequencies : 111 : 111 : 1116.52 individual IFIDFS 33.4143 : 33.4143 WORD: wu idf: 
+56878.7  frequencies : 110 : 110 : 1096.49 individual IFIDFS 33.1133 : 33.1133 WORD: Draw idf: 
+ frequencies : 78 : 78 : 2205.31 individual IFIDFS 46.9607 : 46.9607 WORD: Homo idf: 
+ frequencies : 97 : 97 : 3410.54 individual IFIDFS 58.3998 : 58.3998 WORD: Status idf: 
+ frequencies : 55 : 55 : 1096.49 individual IFIDFS 33.1133 : 33.1133 WORD: Taxonbar idf: 
+ frequencies : 107 : 107 : 1037.5 individual IFIDFS 32.2102 : 32.2102 WORD: arrow idf: 
+ frequencies : 67 : 67 : 1627.16 individual IFIDFS 40.338 : 40.338 WORD: genet idf: 
+ frequencies : 62 : 62 : 1393.36 individual IFIDFS 37.3277 : 37.3277 WORD: genus idf: 
+ frequencies : 673 : 673 : 41044 individual IFIDFS 202.593 : 202.593 WORD: nudg idf: 
+ frequencies : 161 : 161 : 2348.94 individual IFIDFS 48.4658 : 48.4658 WORD: nudgedown idf: 
+ frequencies : 162 : 162 : 2378.21 individual IFIDFS 48.7669 : 48.7669 WORD: nudgeright idf: 
+ frequencies : 191 : 191 : 13223.5 individual IFIDFS 114.993 : 114.993 WORD: rgb idf: 
+ frequencies : 82 : 82 : 2437.29 individual IFIDFS 49.3689 : 49.3689 WORD: taxon idf: 
+ frequencies : 153 : 153 : 8485.21 individual IFIDFS 92.1152 : 92.1152 WORD: taxonomi idf: 
+ frequencies : 193 : 193 : 13501.9 individual IFIDFS 116.198 : 116.198 WORD: unrank idf: 
+ frequencies : 111 : 111 : 1116.52 individual IFIDFS 33.4143 : 33.4143 WORD: wu idf: 
+133111 2941.5 458.161 
+177.126 2941.5  frequencies : 96 : 96 : 3340.58 individual IFIDFS 57.7978 : 57.7978 WORD: 1914 idf: 
+ frequencies : 144 : 144 : 1879.08 individual IFIDFS 43.3483 : 43.3483 WORD: 1918 idf: 
+ frequencies : 112 : 112 : 1136.73 individual IFIDFS 33.7154 : 33.7154 WORD: Ottoman idf: 
+ frequencies : 161 : 161 : 2348.94 individual IFIDFS 48.4658 : 48.4658 WORD: sfn idf: 
+ frequencies : 74 : 74 : 1984.92 individual IFIDFS 44.5524 : 44.5524 WORD: supp idf: 
+32553.4  frequencies : 161 : 173 : 2524.01 individual IFIDFS 48.4658 : 52.0782 WORD: sfn idf: 
+8191.54 
+182.675 458.161  frequencies : 173 : 161 : 2524.01 individual IFIDFS 52.0782 : 48.4658 WORD: sfn idf: 
+8191.54  frequencies : 182 : 182 : 3001.67 individual IFIDFS 54.7875 : 54.7875 WORD: Harvnb idf: 
+ frequencies : 56 : 56 : 1136.73 individual IFIDFS 33.7154 : 33.7154 WORD: jd idf: 
+ frequencies : 173 : 173 : 2712.14 individual IFIDFS 52.0782 : 52.0782 WORD: sfn idf: 
+26865.7 

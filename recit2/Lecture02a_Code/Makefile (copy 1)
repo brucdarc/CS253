@@ -1,0 +1,18 @@
+#demo : 
+#	g++ main.cpp Complex.cpp -I. -o demo
+CC = g++
+CFLAGS = -Wall -c
+LFLAGS = -Wall
+OBJS = main.o Complex.o
+INCLUDE = -I.
+
+demo : main.o Complex.o
+	g++ main.o Complex.o -I. -o demo
+
+main.o : main.cpp Complex.h
+	g++ main.cpp -I. -c
+
+Complex.o : Complex.cpp Complex.h
+	g++ Complex.cpp -I. -c
+
+

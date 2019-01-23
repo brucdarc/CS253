@@ -1,0 +1,15 @@
+\contentsline {chapter}{\numberline {1}Class Index}{1}
+\contentsline {section}{\numberline {1.1}Class List}{1}
+\contentsline {chapter}{\numberline {2}Class Documentation}{3}
+\contentsline {section}{\numberline {2.1}Add\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Exceptions Class Reference}{3}
+\contentsline {section}{\numberline {2.2}Doc\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Manager Class Reference}{3}
+\contentsline {section}{\numberline {2.3}Document Class Reference}{4}
+\contentsline {subsection}{\numberline {2.3.1}Constructor \& Destructor Documentation}{4}
+\contentsline {subsubsection}{\numberline {2.3.1.1}Document()}{4}
+\contentsline {subsection}{\numberline {2.3.2}Member Function Documentation}{5}
+\contentsline {subsubsection}{\numberline {2.3.2.1}get\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Num\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Sents()}{5}
+\contentsline {section}{\numberline {2.4}Except Class Reference}{5}
+\contentsline {section}{\numberline {2.5}File\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Count Class Reference}{6}
+\contentsline {section}{\numberline {2.6}Grammar\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Machine Class Reference}{6}
+\contentsline {section}{\numberline {2.7}String\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Test Class Reference}{7}
+\contentsline {section}{\numberline {2.8}Word Class Reference}{7}

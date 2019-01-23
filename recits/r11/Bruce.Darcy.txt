@@ -1,0 +1,262 @@
+buttermilk:~/Desktop/cs253/recits/r11/testsvn$ svnadmin create repos_PA6
+buttermilk:~/Desktop/cs253/recits/r11/testsvn$ svn import ../../../P6/PA6 file:///s/bach/g/under/cutreap/Desktop/cs253/recits/r11/testsvn/repos_11 -m "initial Import"
+svn: E170013: Unable to connect to a repository at URL 'file:///s/bach/g/under/cutreap/Desktop/cs253/recits/r11/testsvn/repos_11'
+svn: E180001: Unable to open repository 'file:///s/bach/g/under/cutreap/Desktop/cs253/recits/r11/testsvn/repos_11'
+buttermilk:~/Desktop/cs253/recits/r11/testsvn$ svn import ../../../P6/PA6 file:///s/bach/g/under/cutreap/Desktop/cs253/recits/r11/testsvn/repos_PA6 -m "initial Import"
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/AddExceptions.cpp
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/AddExceptions.h
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/BEES.txt
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/Doc1.txt
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/Doc2.txt
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/Doc3.txt
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/DocManager.cpp
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/DocManager.h
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/Document.cpp
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/Document.h
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/Except.cpp
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/Except.h
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/Exceptions.txt
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/FileCount.cpp
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/FileCount.h
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/GrammarMachine.cpp
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/GrammarMachine.h
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/Makefile
+Adding  (bin)  /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/PA5
+Adding  (bin)  /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/PA6
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/StringTest.cpp
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/StringTest.h
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/Tests
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/Tests/Exceptions.txt
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/Tests/earth.ascii.xml
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/Tests/human.ascii.xml
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/Tests/ww1.ascii.xml
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/Tests/ww2.ascii.xml
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/Word.cpp
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/Word.h
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/Words.cpp
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/bou.txt
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/c.ascii.xml
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/callgrind.out.30050
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/callout.txt
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/cpp.ascii.xml
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/damnout3.txt
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/earth.ascii.xml
+Adding  (bin)  /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/errors.txt
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/errors2.txt
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/errors3.txt
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/errors4.txt
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/errors5.txt
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/errors6.txt
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/errors7.txt
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/errors8.txt
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/gjt.txt
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/haskell.ascii.xml
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/help.txt
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/human.ascii.xml
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/java.ascii.xml
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/main.cpp
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/one.txt
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/out2.txt
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/pub.txt
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/python.ascii.xml
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/t1.txt
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/t2.txt
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/t3.txt
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/t4.txt
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/t5.txt
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/testEmpty.txt
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/testie.txt
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/two.txt
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/ww1.ascii.xml
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/ww2.ascii.xml
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/z1.txt
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/z2.txt
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/z3.txt
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/z4.txt
+Adding         /s/bach/g/under/cutreap/Desktop/cs253/P6/PA6/z5.txt
+Committing transaction...
+Committed revision 1.
+buttermilk:~/Desktop/cs253/recits/r11/testsvn$ svn checkout file:///s/bach/g/under/cutreap/Desktop/cs253/recits/r11/testsvn/repos_PA6/makefile
+svn: E170000: URL 'file:///s/bach/g/under/cutreap/Desktop/cs253/recits/r11/testsvn/repos_PA6/makefile' doesn't exist
+buttermilk:~/Desktop/cs253/recits/r11/testsvn$ svn checkout file:///s/bach/g/under/cutreap/Desktop/cs253/recits/r11/testsvn/repos_PA6/Makefile
+svn: E200007: URL 'file:///s/bach/g/under/cutreap/Desktop/cs253/recits/r11/testsvn/repos_PA6/Makefile' refers to a file, not a directory
+buttermilk:~/Desktop/cs253/recits/r11/testsvn$ svn checkout file:///s/bach/g/under/cutreap/Desktop/cs253/recits/r11/testsvn/repos_PA6/
+A    repos_PA6/Tests
+A    repos_PA6/Tests/Exceptions.txt
+A    repos_PA6/Tests/earth.ascii.xml
+A    repos_PA6/Tests/human.ascii.xml
+A    repos_PA6/Tests/ww1.ascii.xml
+A    repos_PA6/Tests/ww2.ascii.xml
+A    repos_PA6/AddExceptions.cpp
+A    repos_PA6/AddExceptions.h
+A    repos_PA6/BEES.txt
+A    repos_PA6/Doc1.txt
+A    repos_PA6/Doc2.txt
+A    repos_PA6/Doc3.txt
+A    repos_PA6/DocManager.cpp
+A    repos_PA6/DocManager.h
+A    repos_PA6/Document.cpp
+A    repos_PA6/Document.h
+A    repos_PA6/Except.cpp
+A    repos_PA6/Except.h
+A    repos_PA6/Exceptions.txt
+A    repos_PA6/FileCount.cpp
+A    repos_PA6/FileCount.h
+A    repos_PA6/GrammarMachine.cpp
+A    repos_PA6/GrammarMachine.h
+A    repos_PA6/Makefile
+A    repos_PA6/PA5
+A    repos_PA6/PA6
+A    repos_PA6/StringTest.cpp
+A    repos_PA6/StringTest.h
+A    repos_PA6/Word.cpp
+A    repos_PA6/Word.h
+A    repos_PA6/Words.cpp
+A    repos_PA6/bou.txt
+A    repos_PA6/c.ascii.xml
+A    repos_PA6/callgrind.out.30050
+A    repos_PA6/callout.txt
+A    repos_PA6/cpp.ascii.xml
+A    repos_PA6/damnout3.txt
+A    repos_PA6/earth.ascii.xml
+A    repos_PA6/errors.txt
+A    repos_PA6/errors2.txt
+A    repos_PA6/errors3.txt
+A    repos_PA6/errors4.txt
+A    repos_PA6/errors5.txt
+A    repos_PA6/errors6.txt
+A    repos_PA6/errors7.txt
+A    repos_PA6/errors8.txt
+A    repos_PA6/gjt.txt
+A    repos_PA6/haskell.ascii.xml
+A    repos_PA6/help.txt
+A    repos_PA6/human.ascii.xml
+A    repos_PA6/java.ascii.xml
+A    repos_PA6/main.cpp
+A    repos_PA6/one.txt
+A    repos_PA6/out2.txt
+A    repos_PA6/pub.txt
+A    repos_PA6/python.ascii.xml
+A    repos_PA6/t1.txt
+A    repos_PA6/t2.txt
+A    repos_PA6/t3.txt
+A    repos_PA6/t4.txt
+A    repos_PA6/t5.txt
+A    repos_PA6/testEmpty.txt
+A    repos_PA6/testie.txt
+A    repos_PA6/two.txt
+A    repos_PA6/ww1.ascii.xml
+A    repos_PA6/ww2.ascii.xml
+A    repos_PA6/z1.txt
+A    repos_PA6/z2.txt
+A    repos_PA6/z3.txt
+A    repos_PA6/z4.txt
+A    repos_PA6/z5.txt
+Checked out revision 1.
+buttermilk:~/Desktop/cs253/recits/r11/testsvn$ svn checkout file:///s/bach/g/under/cutreap/Desktop/cs253/recits/r11/testsvn/checkout_1
+svn: E170013: Unable to connect to a repository at URL 'file:///s/bach/g/under/cutreap/Desktop/cs253/recits/r11/testsvn/checkout_1'
+svn: E180001: Unable to open repository 'file:///s/bach/g/under/cutreap/Desktop/cs253/recits/r11/testsvn/checkout_1'
+buttermilk:~/Desktop/cs253/recits/r11/testsvn$ mkdir checkout_1
+buttermilk:~/Desktop/cs253/recits/r11/testsvn$ svn checkout file:///s/bach/g/under/cutreap/Desktop/cs253/recits/r11/testsvn/checkout_1
+svn: E170013: Unable to connect to a repository at URL 'file:///s/bach/g/under/cutreap/Desktop/cs253/recits/r11/testsvn/checkout_1'
+svn: E180001: Unable to open repository 'file:///s/bach/g/under/cutreap/Desktop/cs253/recits/r11/testsvn/checkout_1'
+buttermilk:~/Desktop/cs253/recits/r11/testsvn$ update
+bash: update: command not found
+buttermilk:~/Desktop/cs253/recits/r11/testsvn$ svn update
+Skipped '.'
+svn: E155007: None of the targets are working copies
+buttermilk:~/Desktop/cs253/recits/r11/testsvn$ svn checkout file:///s/bach/g/under/cutreap/Desktop/cs253/recits/r11/testsvn/repos_PA6/ checkout1
+A    checkout1/Tests
+A    checkout1/Tests/Exceptions.txt
+A    checkout1/Tests/earth.ascii.xml
+A    checkout1/Tests/human.ascii.xml
+A    checkout1/Tests/ww1.ascii.xml
+A    checkout1/Tests/ww2.ascii.xml
+A    checkout1/AddExceptions.cpp
+A    checkout1/AddExceptions.h
+A    checkout1/BEES.txt
+A    checkout1/Doc1.txt
+A    checkout1/Doc2.txt
+A    checkout1/Doc3.txt
+A    checkout1/DocManager.cpp
+A    checkout1/DocManager.h
+A    checkout1/Document.cpp
+A    checkout1/Document.h
+A    checkout1/Except.cpp
+A    checkout1/Except.h
+A    checkout1/Exceptions.txt
+A    checkout1/FileCount.cpp
+A    checkout1/FileCount.h
+A    checkout1/GrammarMachine.cpp
+A    checkout1/GrammarMachine.h
+A    checkout1/Makefile
+A    checkout1/PA5
+A    checkout1/PA6
+A    checkout1/StringTest.cpp
+A    checkout1/StringTest.h
+A    checkout1/Word.cpp
+A    checkout1/Word.h
+A    checkout1/Words.cpp
+A    checkout1/bou.txt
+A    checkout1/c.ascii.xml
+A    checkout1/callgrind.out.30050
+A    checkout1/callout.txt
+A    checkout1/cpp.ascii.xml
+A    checkout1/damnout3.txt
+A    checkout1/earth.ascii.xml
+A    checkout1/errors.txt
+A    checkout1/errors2.txt
+A    checkout1/errors3.txt
+A    checkout1/errors4.txt
+A    checkout1/errors5.txt
+A    checkout1/errors6.txt
+A    checkout1/errors7.txt
+A    checkout1/errors8.txt
+A    checkout1/gjt.txt
+A    checkout1/haskell.ascii.xml
+A    checkout1/help.txt
+A    checkout1/human.ascii.xml
+A    checkout1/java.ascii.xml
+A    checkout1/main.cpp
+A    checkout1/one.txt
+A    checkout1/out2.txt
+A    checkout1/pub.txt
+A    checkout1/python.ascii.xml
+A    checkout1/t1.txt
+A    checkout1/t2.txt
+A    checkout1/t3.txt
+A    checkout1/t4.txt
+A    checkout1/t5.txt
+A    checkout1/testEmpty.txt
+A    checkout1/testie.txt
+A    checkout1/two.txt
+A    checkout1/ww1.ascii.xml
+A    checkout1/ww2.ascii.xml
+A    checkout1/z1.txt
+A    checkout1/z2.txt
+A    checkout1/z3.txt
+A    checkout1/z4.txt
+A    checkout1/z5.txt
+Checked out revision 1.
+buttermilk:~/Desktop/cs253/recits/r11/testsvn$ cd checkout1
+buttermilk:~/Desktop/cs253/recits/r11/testsvn/checkout1$ gedit Makefile
+buttermilk:~/Desktop/cs253/recits/r11/testsvn/checkout1$ svn commit -m "new lines in make file"
+Sending        Makefile
+Transmitting file data .done
+Committing transaction...
+Committed revision 2.
+buttermilk:~/Desktop/cs253/recits/r11/testsvn/checkout1$ svn update
+Updating '.':
+At revision 2.
+buttermilk:~/Desktop/cs253/recits/r11/testsvn/checkout1$ svn log
+------------------------------------------------------------------------
+r2 | cutreap | 2017-10-31 15:44:36 -0600 (Tue, 31 Oct 2017) | 1 line
+
+new lines in make file
+------------------------------------------------------------------------
+r1 | cutreap | 2017-10-31 15:39:35 -0600 (Tue, 31 Oct 2017) | 1 line
+
+initial Import
+------------------------------------------------------------------------
+buttermilk:~/Desktop/cs253/recits/r11/testsvn/checkout1$ 
+

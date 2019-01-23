@@ -1,0 +1,88 @@
+000
+FXUS65 KGJT 222341
+AFDGJT
+
+Area Forecast Discussion
+National Weather Service GRAND JUNCTION CO
+541 PM MDT Sun Oct 22 2017
+
+.SHORT TERM...(Tonight through Monday night)
+Issued at 152 PM MDT Sun Oct 22 2017
+
+Cirrus entrained in northwest flow is expected to continue
+sweeping southeastward across the forecast area tonight. A weak
+shortwave trough and modest mid-level moisture is expected to
+bring scattered snow showers to the Elkhead and Park Ranges late
+tonight and Monday morning. Accumulations will be light with only
+an inch or a little more expected above 10,000 feet and flurries
+possible down to 8500 feet. Clouds combined with the passage of
+the upper level disturbance will buoy overnight lows, especially
+in the north.
+
+A ridge builds over the western U.S. during the latter part of the
+day Monday which will cause flow to weaken and shift to a more
+northerly direction while clouds decrease. Little change in 7H
+temperatures indicated in model data, so expect marginally warmer
+afternoon temperatures, largely the result of increased solar
+insolation. The continued influx of drier air from the north with
+few clouds Monday night will cause lows Tuesday morning to dip
+from 5 to 10 deg F across northwest Colorado. Elsewhere, overnight
+lows will experience little change.
+
+.LONG TERM...(Tuesday through Sunday)
+Issued at 152 PM MDT Sun Oct 22 2017
+
+The ridge over the West will hold Tuesday, then begins to
+breakdown on Wednesday. In response, dry weather will continue
+through midweek regionwide with temperatures running a few degrees
+above normal for most locations.
+
+Models continued to suggest changes in store Thursday, however
+there still isn`t consensus. As has been the case over the past
+several runs, the GFS and Canadian suggest a low amplitude
+shortwave-trough will deal a glancing blow to the northern and
+central Continental Divide Thursday into Thursday night. The GFS
+indicated light accumulations of mountain snow while the Canadian-
+NH doesn`t generate any precipitation. In contrast, the ECMWF
+persisted with a more vigorous shortwave over the same period, its
+impacts extending farther to the west. Snow in the northern and
+central Colorado mountains with this solution have the potential
+of yielding impactful snow across the higher elevations including
+Rabbit Ears and Vail Passes. Given model disparities will hold the
+line with a blended forecast which suggests modest precipitation
+chances, mainly over the Elkhead, Park, Gore, Flat Tops and
+portions of the Elk Mountains.
+
+Despite model differences, by Friday afternoon, both models
+indicated dry weather will return and will continue through the
+weekend as high pressure becomes reestablished over the West.
+However, an influx of colder air Thursday and Thursday night is
+expected to drive temperatures below normal Friday into Saturday.
+By Sunday, models suggest the airmass will modify to near normal
+levels.
+
+&&
+
+.AVIATION...(For the 00Z TAFS through 00Z Monday evening)
+Issued at 540 PM MDT Sun Oct 22 2017
+
+Cloud cover will increase along and north of a line from KCAG to
+KASE as weak upper level disturbance moves in. This may trigger a
+few light snow showers over the northern mountains in western
+Colorado between 09Z and 21Z Monday with a local mountain
+obscuration. No impacts are expected at terminal sites outside of
+an increase in mid level cloud cover with CIGS remaining above ILS
+breakpoints.
+
+&&
+
+.GJT WATCHES/WARNINGS/ADVISORIES...
+CO...None.
+UT...None.
+&&
+
+$$
+
+SHORT TERM...NL
+LONG TERM...NL
+AVIATION...JDC

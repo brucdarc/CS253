@@ -1,0 +1,143 @@
+Temporary breakpoint 1, main (argc=2, argv=0x7fffffffe318) at factorial.cpp:11
+11	    if (argc != 2)
+Missing separate debuginfos, use: dnf debuginfo-install libgcc-6.4.1-1.fc25.x86_64 libstdc++-6.4.1-1.fc25.x86_64
+(gdb) step
+13	    int n = std::stoi(argv[1]); //converts string to int
+(gdb) setp
+Undefined command: "setp".  Try "help".
+(gdb) step
+std::__cxx11::stoi (__str="5", __idx=0x0, __base=10)
+    at /usr/include/c++/6.4.1/bits/basic_string.h:5428
+5428	  { return __gnu_cxx::__stoa<long, int>(&std::strtol, "stoi", __str.c_str(),
+(gdb) 
+5429						__idx, __base); }
+(gdb) 
+__gnu_cxx::__stoa<long, int, char, int> (__convf=0x400b00 <strtol@plt>, 
+    __name=0x401011 "stoi", __str=0x7fffffffe1f0 "5", __idx=0x0, __base#0=10)
+    at /usr/include/c++/6.4.1/ext/string_conversions.h:66
+66	      } const __save_errno;
+(gdb) quit
+A debugging session is active.
+
+	Inferior 1 [process 21880] will be killed.
+
+Quit anyway? (y or n) y
+silverton:~/Desktop/cs253/Rfuckyou$ gdb RA4
+GNU gdb (GDB) Fedora 7.12.1-48.fc25
+Copyright (C) 2017 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-redhat-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from RA4...done.
+(gdb) step
+The program is not being run.
+(gdb) RA4 5
+Undefined command: "RA4".  Try "help".
+(gdb) start 5
+Temporary breakpoint 1 at 0x400ca6: file factorial.cpp, line 11.
+Starting program: /s/bach/g/under/cutreap/Desktop/cs253/Rfuckyou/RA4 5
+Missing separate debuginfos, use: dnf debuginfo-install glibc-2.24-10.fc25.x86_64
+
+Temporary breakpoint 1, main (argc=2, argv=0x7fffffffe318) at factorial.cpp:11
+11	    if (argc != 2)
+Missing separate debuginfos, use: dnf debuginfo-install libgcc-6.4.1-1.fc25.x86_64 libstdc++-6.4.1-1.fc25.x86_64
+(gdb) step
+13	    int n = std::stoi(argv[1]); //converts string to int
+(gdb) next
+14	    long val=factorial(n);
+(gdb) step
+factorial (n=5) at factorial.cpp:21
+21	    long result = 1;
+(gdb) 
+22	    while(n--)
+(gdb) 
+24	        result*=n;
+(gdb) 
+22	    while(n--)
+(gdb) 
+24	        result*=n;
+(gdb) print n
+$1 = 3
+(gdb) step
+22	    while(n--)
+(gdb) print n
+$2 = 3
+(gdb) step
+24	        result*=n;
+(gdb) 
+22	    while(n--)
+(gdb) 
+24	        result*=n;
+(gdb) print n
+$3 = 1
+(gdb) step
+22	    while(n--)
+(gdb) 
+24	        result*=n;
+(gdb) 
+22	    while(n--)
+(gdb) 
+27	    return result;
+(gdb) print n
+$4 = -1
+(gdb) print n
+$5 = -1
+(gdb) print n
+$6 = -1
+(gdb) step
+28	}
+(gdb) 
+main (argc=2, argv=0x7fffffffe318) at factorial.cpp:15
+15	    cout << val << endl;
+(gdb) 
+0
+16	    return 0;
+(gdb) 
+17	}
+(gdb) 
+0x00007ffff7189431 in __libc_start_main () from /lib64/libc.so.6
+(gdb) 
+Single stepping until exit from function __libc_start_main,
+which has no line number information.
+[Inferior 1 (process 21928) exited normally]
+(gdb) 
+The program is not being run.
+(gdb) 
+The program is not being run.
+(gdb) quit
+silverton:~/Desktop/cs253/Rfuckyou$ g++ -Wall -g factorial.cpp -o RA4
+silverton:~/Desktop/cs253/Rfuckyou$ gdb RA4
+GNU gdb (GDB) Fedora 7.12.1-48.fc25
+Copyright (C) 2017 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-redhat-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from RA4...done.
+(gdb) run 5
+Starting program: /s/bach/g/under/cutreap/Desktop/cs253/Rfuckyou/RA4 5
+Missing separate debuginfos, use: dnf debuginfo-install glibc-2.24-10.fc25.x86_64
+120
+[Inferior 1 (process 22008) exited normally]
+Missing separate debuginfos, use: dnf debuginfo-install libgcc-6.4.1-1.fc25.x86_64 libstdc++-6.4.1-1.fc25.x86_64
+(gdb) Quit
+(gdb) Quit
+(gdb) 
+

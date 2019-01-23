@@ -1,0 +1,477 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.31.0-wmf.4</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Haskell (programming language)</title>
+    <ns>0</ns>
+    <id>27404990</id>
+    <revision>
+      <id>805224846</id>
+      <parentid>803802863</parentid>
+      <timestamp>2017-10-13T22:14:36Z</timestamp>
+      <contributor>
+        <ip>208.184.3.194</ip>
+      </contributor>
+      <comment>/* Related languages */ Remove &quot;scotch&quot; language, whose links are no longer working.</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="51588">{{Infobox programming language
+| name                   = Haskell
+| logo                   = [[File:Haskell-Logo.svg|120px|Logo of Haskell]]
+| paradigm               = [[functional programming|functional]], [[lazy evaluation|lazy]]/[[non-strict programming language|non-strict]], [[modular programming|modular]]
+| released               = {{start date and age|1990}}{{sfn|Hudak|Hughes|Peyton Jones|Wadler|2007}}
+| designer = [[Lennart Augustsson]], Dave Barton, Brian Boutel, Warren Burton, Joseph Fasel, Kevin Hammond, Ralf Hinze, [[Paul Hudak]], [[John Hughes (computer scientist)|John Hughes]], Thomas Johnsson, Mark Jones, [[Simon Peyton Jones]], John Launchbury, [[Erik Meijer (computer scientist)|Erik Meijer]], John Peterson, Alastair Reid, Colin Runciman, [[Philip Wadler]]
+| developer              =
+| latest release version = &lt;!-- Of language specification, not [[Haskell Platform]]! --&gt;Haskell 2010&lt;ref name=&quot;2010ann&quot;&gt;{{cite mailing list |url=http://www.haskell.org/pipermail/haskell/2009-November/021750.html |title=Announcing Haskell 2010 |date=24 November 2009 |accessdate=12 March 2011 |mailinglist=Haskell |last=Marlow |first=Simon}}&lt;/ref&gt;
+| latest release date    = {{start date and age|df=yes|2010|07}}
+| latest test version    = Haskell 2020 announced&lt;ref&gt;{{cite mailing list|url=https://mail.haskell.org/pipermail/haskell-prime/2016-April/004050.html |title=ANN: Haskell Prime 2020 committee has formed |date=28 April 2013 |accessdate=6 May 2017 |mailinglist=Haskell-prime |last=Riedel |first=Herbert}}&lt;/ref&gt;
+| latest test date       =
+| typing                 = [[static typing|static]], [[strong typing|strong]], [[type inference|inferred]]
+| implementations        = [[Glasgow Haskell Compiler|GHC]], [[Hugs]], NHC, JHC, [[Yhc]], UHC
+| dialects               = [[Helium (Haskell)|Helium]], [[Gofer (software)|Gofer]]
+| influenced by          = [[Clean (programming language)|Clean]],&lt;ref name=&quot;haskell-report-influences&quot;&gt;{{harvnb|Peyton Jones|2003|p=xi}}&lt;/ref&gt; [[FP (programming language)|FP]],&lt;ref name=&quot;haskell-report-influences&quot;/&gt; [[Gofer (programming language)|Gofer]],&lt;ref name=&quot;haskell-report-influences&quot;/&gt; [[Hope (programming language)|Hope]] and Hope&lt;sup&gt;+&lt;/sup&gt;,&lt;ref name=&quot;haskell-report-influences&quot;/&gt; [[Id (programming language)|Id]],&lt;ref name=&quot;haskell-report-influences&quot;/&gt; [[ISWIM]],&lt;ref name=&quot;haskell-report-influences&quot;/&gt; [[Kent Recursive Calculator|KRC]],&lt;ref name=&quot;haskell-report-influences&quot;/&gt; [[Lisp (programming language)|Lisp]],&lt;ref name=&quot;haskell-report-influences&quot;/&gt; [[Miranda (programming language)|Miranda]],&lt;ref name=&quot;haskell-report-influences&quot;/&gt; [[ML (programming language)|ML]] and [[Standard ML]],&lt;ref name=&quot;haskell-report-influences&quot;/&gt; [[Orwell (programming language)|Orwell]], [[SASL (programming language)|SASL]],&lt;ref name=&quot;haskell-report-influences&quot;/&gt;
+ [[Scheme (programming language)|Scheme]],&lt;ref name=&quot;haskell-report-influences&quot;/&gt; [[SISAL]]&lt;ref name=&quot;haskell-report-influences&quot;/&gt;| influenced             = [[Agda (programming language)|Agda]],&lt;ref&gt;{{cite web|url=http://www.cse.chalmers.se/~ulfn/papers/afp08/tutorial.pdf|title=Dependently Typed Programming in Agda|last=Norell|first=Ulf|year=2008|publisher=Chalmers University|accessdate=9 February 2012|location=Gothenburg}}&lt;/ref&gt; [[Bluespec, Inc.|Bluespec]],{{sfn|Hudak|Hughes|Peyton Jones|Wadler|2007|p=12-38,43}} [[C++11]]/[[Concepts (C++)|Concepts]],&lt;ref&gt;{{cite journal|title=Design of Concept Libraries for C++ |first1=Bjarne |last1=Stroustrup |authorlink1=Bjarne Stroustrup |first2=Andrew |last2=Sutton |url=http://www2.research.att.com/~bs/sle2011-concepts.pdf |year=2011 |deadurl=yes |archiveurl=https://web.archive.org/web/20120210041742/http://www2.research.att.com/~bs/sle2011-concepts.pdf |archivedate=10 February 2012 }}&lt;/ref&gt; [[C Sharp (programming language)|C#]]/[[Language Integrated Query|LINQ]],{{sfn|Hudak|Hughes|Peyton Jones|Wadler|2007|pp=12-45-46}}&lt;ref name=&quot;meijer2012&quot;/&gt;&lt;ref&gt;{{cite web|url=http://channel9.msdn.com/shows/Going+Deep/Lecture-Series-Erik-Meijer-Functional-Programming-Fundamentals-Chapter-1/|title=C9 Lectures: Dr. Erik Meijer&amp;nbsp;- Functional Programming Fundamentals, Chapter 1 of 13|last=Meijer|first=Erik|date=1 October 2009|work=[[Channel 9 (discussion forum)|Channel 9]]|publisher=Microsoft|accessdate=9 February 2012}}&lt;/ref&gt;&lt;ref&gt;{{cite news|url=http://www.infoq.com/interviews/LINQ-Erik-Meijer|title=Erik Meijer on LINQ|last=Drobi|first=Sadek|date=4 March 2009|work=InfoQ|publisher=C4Media Inc.|accessdate=9 February 2012|location=QCon [[San Francisco|SF]] 2008}}&lt;/ref&gt; [[CAL (Quark Framework)|CAL]],{{Citation needed|date=February 2012}} [[Cayenne (programming language)|Cayenne]],{{sfn|Hudak|Hughes|Peyton Jones|Wadler|2007|pp=12-45-46}} [[Clean (programming language)|Clean]],{{sfn|Hudak|Hughes|Peyton Jones|Wadler|2007|pp=12-45-46}} [[Clojure]],&lt;ref&gt;{{cite web|url=https://www.amazon.com/gp/richpub/listmania/fullview/R3LG3ZBZS4GCTH|title=Clojure Bookshelf|last=Hickey|first=Rich|work=Listmania!|publisher=Amazon.com|accessdate=9 February 2012}}&lt;/ref&gt; [[CoffeeScript]],&lt;ref&gt;{{cite news|url=http://www.javaworld.com/javaworld/jw-10-2011/111018-coffeescript-vs-dart.html|title=Turn up your nose at Dart and smell the CoffeeScript|last=Heller|first=Martin|date=18 October 2011|work=JavaWorld|publisher=InfoWorld|accessdate=9 February 2012}}&lt;/ref&gt; [[Curry (programming language)|Curry]],{{sfn|Hudak|Hughes|Peyton Jones|Wadler|2007|pp=12-45-46}} [[Elm (programming language)|Elm]], [[Epigram (programming language)|Epigram]],{{Citation needed|date=February 2012}} [[Escher (programming language)|Escher]],&lt;ref&gt;{{cite web|url=http://www.cs.bris.ac.uk/Publications/Papers/1000073.pdf|title=Declarative programming in Escher|accessdate=2015-10-07}}&lt;/ref&gt; [[F Sharp (programming language)|F#]],&lt;ref&gt;{{cite book|last1=Syme|first1=Don|authorlink1=Don Syme|last2=Granicz|first2=Adam|last3=Cisternino|first3=Antonio|title=Expert F#|year=2007|publisher=[[Apress]]|page=2 |quote=F# also draws from Haskell particularly with regard to two advanced language features called ''sequence expressions'' and ''workflows''.}}&lt;/ref&gt; [[Frege (programming language)|Frege]],&lt;ref&gt;{{cite web|last=Wechsung|first=Ingo|title=The Frege Programming Language|url=http://www.frege-lang.org/doc/Language.pdf|accessdate=26 February 2014}}&lt;/ref&gt; [[Hack (programming language)|Hack]],&lt;ref&gt;{{cite web|url=https://www.wired.com/2014/03/facebook-hack/|title=Facebook Introduces 'Hack,' the Programming Language of the Future|date=20 March 2014|work=WIRED}}&lt;/ref&gt; [[Idris (programming language)|Idris]],&lt;ref&gt;{{cite web|title=Idris, a dependently typed language|url=http://www.idris-lang.org/|accessdate=2014-10-26}}&lt;/ref&gt; [[Isabelle theorem prover|Isabelle]],{{sfn|Hudak|Hughes|Peyton Jones|Wadler|2007|pp=12-45-46}} [[Java (programming language)|Java]]/[[Generics in Java|Generics]],{{sfn|Hudak|Hughes|Peyton Jones|Wadler|2007|pp=12-45-46}} [[LiveScript]],&lt;ref&gt;{{cite web|url=http://livescript.net/#inspiration|title=LiveScript Inspiration|accessdate=2014-02-04}}&lt;/ref&gt; [[Mercury (programming language)|Mercury]],{{sfn|Hudak|Hughes|Peyton Jones|Wadler|2007|pp=12-45-46}} [[?mega]],{{Citation needed|date=February 2012}} [[Perl 6]],&lt;ref&gt;{{cite web|url=http://www.perlfoundation.org/perl6/index.cgi?glossary_of_terms_and_jargon|title=Glossary of Terms and Jargon|work=Perl Foundation Perl 6 Wiki|publisher=[[The Perl Foundation]]|accessdate=9 February 2012}}&lt;/ref&gt; [[PureScript (programming language)|PureScript]],&lt;ref&gt;{{cite web|url=https://leanpub.com/purescript/read|title=PureScript by Example|last=Freeman|first=Phil|year=2016|publisher=Leanpub|accessdate=23 April 2017}}&lt;/ref&gt; [[Python (programming language)|Python]],{{sfn|Hudak|Hughes|Peyton Jones|Wadler|2007|pp=12-45-46}}&lt;ref&gt;{{cite web|url=https://docs.python.org/howto/functional.html|title=Functional Programming HOWTO|last=Kuchling|first=A. M.|work=Python v2.7.2 documentation|publisher=Python Software Foundation|accessdate=9 February 2012}}&lt;/ref&gt; [[Rust (programming language)|Rust]],&lt;ref&gt;{{cite web|url=http://doc.rust-lang.org/reference.html#appendix-influences|accessdate=2016-02-03|title=The Rust Reference: Appendix: Influences}}&lt;/ref&gt; [[Scala (programming language)|Scala]],{{sfn|Hudak|Hughes|Peyton Jones|Wadler|2007|pp=12-45-46}}&lt;ref&gt;{{cite web|url=http://blog.fogus.me/2010/08/06/martinodersky-take5-tolist/|title=MartinOdersky take(5) toList|last=Fogus|first=Michael|date=6 August 2010|work=Send More Paramedics|accessdate=9 February 2012}}&lt;/ref&gt; [[Swift (programming language)|Swift]],&lt;ref name=&quot;lattner2014&quot;&gt;{{cite web|url=http://nondot.org/sabre/|title=Chris Lattner's Homepage|last=Lattner|first=Chris|date=2014-06-03|accessdate=2014-06-03|publisher=Chris Lattner|quote=The Swift language is the product of tireless effort from a team of language experts, documentation gurus, compiler optimization ninjas, and an incredibly important internal dogfooding group who provided feedback to help refine and battle-test ideas. Of course, it also greatly benefited from the experiences hard-won by many other languages in the field, drawing ideas from Objective-C, Rust, Haskell, Ruby, Python, C#, CLU, and far too many others to list.}}&lt;/ref&gt; [[Timber (programming language)|Timber]],&lt;ref&gt;{{cite web|url=http://www.timber-lang.org/index_histcred.html|title=Timber/History|accessdate=2015-10-07}}&lt;/ref&gt; [[Visual Basic .NET|Visual Basic 9.0]]{{sfn|Hudak|Hughes|Peyton Jones|Wadler|2007|pp=12-45-46}}&lt;ref name=&quot;meijer2012&quot;&gt;{{cite journal|authorlink=Erik Meijer (computer scientist)|first=Erik|last=Meijer|title=Confessions of a Used Programming Language Salesman: Getting the Masses Hooked on Haskell|url=http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.72.868&amp;rep=rep1&amp;type=pdf|journal=[[OOPSLA]] 2007}}&lt;/ref&gt;
+| operating system       = [[Cross-platform]]
+| license                =
+| website                = {{url|https://www.haskell.org}}
+| file ext               = &lt;code&gt;.hs&lt;/code&gt;, &lt;code&gt;.lhs&lt;/code&gt;
+}}
+'''Haskell''' {{IPAc-en|'|h|ae|s|k|?l}}&lt;ref&gt;{{cite mailing list |url=http://www.haskell.org/pipermail/haskell-cafe/2008-January/038756.html |title=anybody can tell me the pronunciation of &quot;haskell&quot;? |date=28 January 2008 |accessdate=12 March 2011 |mailinglist=Haskell-cafe |last=Chevalier |first=Tim}}&lt;/ref&gt; is a standardized, [[General-purpose programming language|general-purpose]] [[purely functional programming]] language, with [[non-strict semantics]] and [[Strong typing|strong]] [[static typing]].{{sfn|Peyton Jones|2003}} It is named after [[logician]] [[Haskell Curry]].{{sfn|Hudak|Hughes|Peyton Jones|Wadler|2007}} The latest standard of Haskell is Haskell 2010. {{As of|2016|05}}, a group is working on the next version, Haskell 2020.&lt;ref&gt;https://mail.haskell.org/pipermail/haskell-prime/2016-April/004050.html&lt;/ref&gt;
+
+Haskell features a [[type system]] with [[type inference]]&lt;ref&gt;Type inference originally using [[Type inference#Hindley.E2.80.93Milner type inference algorithm|Hindley-Milner type inference]]&lt;/ref&gt; and [[lazy evaluation]].&lt;ref&gt;This allows finer control over the expression [[evaluation strategy]]&lt;/ref&gt; [[Type classes]]  first appeared in the Haskell programming language.&lt;ref&gt;&quot;Type classes, first proposed during the design of the Haskell programming language, ...&quot;&amp;nbsp;--[http://homepages.inf.ed.ac.uk/jmorri14/d/final.pdf John Garrett Morris (2013), &quot;Type Classes and Instance Chains: A Relational Approach&quot; ]&lt;/ref&gt; Its main implementation is the [[Glasgow Haskell Compiler]].
+
+Haskell is based on the [[Semantics of programming languages|semantics]], but not the syntax, of the language [[Miranda (programming language)|Miranda]], which served to focus the efforts of the initial Haskell working group.&lt;ref&gt;Edward Kmett, [https://www.youtube.com/watch?v=hIZxTQP1ifo  Edward Kmett - Type Classes vs. the World]&lt;/ref&gt; Haskell is used widely in academia&lt;ref&gt;{{cite web|url=https://wiki.haskell.org/Haskell_in_education|title=Haskell in education|publisher=|accessdate=15 February 2016}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=https://wiki.haskell.org/Haskell_in_research|title=Haskell in research|publisher=|accessdate=15 February 2016}}&lt;/ref&gt; and industry.&lt;ref&gt;{{cite web|url=https://wiki.haskell.org/Haskell_in_industry|title=Haskell in industry|publisher=|accessdate=15 February 2016}}&lt;/ref&gt;
+
+==History==
+Following the release of [[Miranda (programming language)|Miranda]] by Research Software Ltd, in 1985, interest in [[Lazy evaluation|lazy functional languages]] grew. By 1987, more than a dozen [[non-strict]], purely functional programming languages existed. Miranda was the most widely used, but it was [[proprietary software]]. At the conference on [[Functional Programming Languages and Computer Architecture]] (FPCA '87) in [[Portland, Oregon]], there was a strong consensus that a committee be formed to define an [[open standard]] for such languages. The committee's purpose was to consolidate existing [[functional languages]] into a common one to serve as a basis for future research in functional-language design.{{sfn|Peyton Jones|2003|loc=Preface}}
+
+===Haskell 1.0 to 1.4===
+&lt;!-- To do: Describe the change-over in I/O, from lazy streams to monads. --&gt;
+The first version of Haskell (&quot;Haskell 1.0&quot;) was defined in 1990.{{sfn|Hudak|Hughes|Peyton Jones|Wadler|2007}} The committee's efforts resulted in a series of language definitions (1.0, 1.1, 1.2, 1.3, 1.4).
+
+===Haskell 98===
+In late 1997, the series culminated in ''Haskell 98'', intended to specify a stable, minimal, portable version of the language and an accompanying standard [[library (computer science)|library]] for teaching, and as a base for future extensions. The committee expressly welcomed creating extensions and variants of Haskell 98 via adding and incorporating experimental features.{{sfn|Peyton Jones|2003|loc=Preface}}
+
+In February 1999, the Haskell 98 language standard was originally published as ''The Haskell 98 Report''.{{sfn|Peyton Jones|2003|loc=Preface}} In January 2003, a revised version was published as ''Haskell 98 Language and Libraries: The Revised Report''.{{sfn|Peyton Jones|2003}} The language continues to evolve rapidly, with the [[Glasgow Haskell Compiler]] (GHC) implementation representing the current ''de facto'' standard.&lt;ref name=HaskellWikiImpl&gt;{{cite web|title=Haskell Wiki: Implementations|url=http://www.haskell.org/haskellwiki/Implementations|accessdate=18 December 2012}}&lt;/ref&gt;
+
+===Haskell 2010===
+In early 2006, the process of defining a successor to the Haskell 98 standard, informally named ''Haskell Prime'', began.&lt;ref&gt;{{cite web|url=https://prime.haskell.org/|title=Welcome to Haskell'|work=The Haskell' Wiki}}&lt;/ref&gt; This was intended to be an ongoing incremental process to revise the language definition, producing a new revision up to once per year.  The first revision, named '''Haskell 2010''', was announced in November 2009&lt;ref name=&quot;2010ann&quot;/&gt; and published in July 2010.
+
+Haskell 2010 is an incremental update to the language, mostly incorporating several well-used and uncontroversial features previously enabled via compiler-specific flags.
+* Hierarchical module names. Module names are allowed to consist of dot-separated sequences of capitalised identifiers, rather than only one such identifier. This allows modules to be named in a hierarchical manner (e.g. &lt;code&gt;Data.List&lt;/code&gt; instead of &lt;code&gt;List&lt;/code&gt;), although technically modules are still in a single monolithic namespace. This extension was specified in an addendum to Haskell 98 and was in practice universally used.
+* The [[foreign function interface]] (FFI) allows bindings to other programming languages. Only bindings to [[C (programming language)|C]] are specified in the Report, but the design allows for other language bindings. To support this, data type declarations were permitted to contain no constructors, enabling robust nonce types for foreign data that could not be constructed in Haskell. This extension was also previously specified in an Addendum to the Haskell 98 Report and widely used.
+* So-called ''n''+''k'' patterns (definitions of the form &lt;code&gt;fact (n+1) = (n+1) * fact n&lt;/code&gt;) were no longer allowed. This [[syntactic sugar]] had misleading semantics, in which the code looked like it used the &lt;code&gt;(+)&lt;/code&gt; operator, but in fact desugared to code using &lt;code&gt;(-)&lt;/code&gt; and &lt;code&gt;(&gt;=)&lt;/code&gt;.
+* The rules of [[type inference]] were relaxed to allow more programs to type check.
+* Some [[Syntax (programming languages)|syntax]] issues (changes in the formal grammar) were fixed: pattern guards were added, allowing pattern matching within guards; resolution of [[Order of operations|operator fixity]] was specified in a simpler way that reflected actual practice; an edge case in the interaction of the language's [[lexical syntax]] of operators and comments was addressed; and the interaction of do-notation and if-then-else was tweaked to eliminate unexpected syntax errors.
+* The &lt;code&gt;LANGUAGE&lt;/code&gt; [[Directive (programming)|pragma]] was specified. By 2010 dozens of extensions to the language were in wide use, and GHC (among other compilers) provided the &lt;code&gt;LANGUAGE&lt;/code&gt; pragma to specify individual extensions with a list of identifiers. Haskell 2010 compilers are required to support the &lt;code&gt;Haskell2010&lt;/code&gt; extension, and encouraged to support several others that correspond to extensions added in Haskell 2010.
+
+==Features==
+{{Main|Haskell features}}
+{{See also|Glasgow Haskell Compiler#Extensions to Haskell}}
+
+Haskell features [[lazy evaluation]], [[pattern matching]], [[list comprehension]], [[type class]]es and [[type polymorphism]]. It is a [[purely functional language]], which means that functions generally have no [[Side effect (computer science)|side effects]]. A distinct construct exists to represent side effects, [[Orthogonal#Computer science|orthogonal]] to the type of functions. A pure function may return a side effect which is subsequently executed, modeling the [[Pure function#Impure functions|impure functions]] of other languages.
+
+Haskell has a [[strongly typed programming language|strong]], [[static type#Static typing|static]] type system based on [[Hindley-Milner type inference]]. Its principal innovation in this area is type classes, originally conceived as a principled way to add [[Polymorphism (computer science)|overloading]] to the language,&lt;ref name=&quot;wadler89&quot;&gt;{{cite journal|last1=Wadler|first1=P.|first2=S. |last2=Blott|year=1989|title=How to make ad-hoc polymorphism less ad hoc|journal=Proceedings of the 16th ACM [[SIGPLAN]]-[[SIGACT]] [[Symposium on Principles of Programming Languages]]|publisher=[[Association for Computing Machinery|ACM]]|pages=60-76|doi=10.1145/75277.75283|isbn=0-89791-294-2}}&lt;/ref&gt; but since finding many more uses.&lt;ref name=&quot;hallgren01&quot;&gt;{{cite journal|last=Hallgren|first=T.|date=January 2001|title=Fun with Functional Dependencies, or Types as Values in Static Computations in Haskell|journal=Proceedings of the Joint CS/CE Winter Meeting|location=Varberg, Sweden|url=http://www.cs.chalmers.se/~hallgren/Papers/wm01.html}}&lt;/ref&gt;
+
+The construct that represents side effects is an example of a [[Monad (functional programming)|monad]]. Monads are a general framework that can model different kinds of computation, including error handling, [[Nondeterministic algorithm|nondeterminism]], [[parsing]] and [[software transactional memory]]. Monads are defined as ordinary datatypes, but Haskell provides some [[syntactic sugar]] for their use.
+
+Haskell has an open, published specification,{{sfn|Peyton Jones|2003}} and [[#Implementations|multiple implementations exist]]. Its main implementation, the [[Glasgow Haskell Compiler]] (GHC), is both an [[Interpreter (computing)|interpreter]] and [[Machine code|native-code]] [[compiler]] that runs on most platforms. GHC is noted for its rich type system incorporating recent innovations such as [[generalized algebraic data type]]s and type families. [[The Computer Language Benchmarks Game]] also highlights its high-performance implementation of [[Concurrency (computer science)|concurrency]] and [[Parallel computing|parallelism]].&lt;ref name=&quot;shootout&quot;&gt;[http://benchmarksgame.alioth.debian.org/u64q/haskell.html Computer Language Benchmarks Game]&lt;/ref&gt;
+
+An active, growing community exists around the language, and more than 5,400 third-party open-source libraries and tools are available in the online package repository ''Hackage''.&lt;ref name=&quot;hackage-stats&quot;&gt;{{cite web|url=http://hackage.haskell.org/cgi-bin/hackage-scripts/stats|archiveurl=https://web.archive.org/web/20130503114836/http://hackage.haskell.org/cgi-bin/hackage-scripts/stats|archivedate=2013-05-03 |title=HackageDB statistics |publisher=Hackage.haskell.org |accessdate=2013-06-26}}&lt;/ref&gt;
+
+==Code examples==
+{{See also|Haskell features#Examples}}
+A [[Hello world program|&quot;Hello world&quot; program]] in Haskell:&lt;ref group=lower-alpha&gt;'Hello world' is meant as the introductory prototype of a [[read-eval-print loop]]. The IO tool putStrLn prints a string, which is the only essential line of this example. The second line of this example is a type definition, which is unnecessary for Haskell, because the compiler infers the type; instead, the second line serves to communicate the programmer's intention to the reader. The first line of the example isn't needed, either, because the start symbol &lt;code&gt;main&lt;/code&gt; in this simple example makes the module &lt;code&gt;Main&lt;/code&gt; a nicety, which instead would have been a necessity in a multi-module example. Rather, the first two lines are provided for consistency with larger examples.&lt;/ref&gt;
+&lt;source lang=&quot;haskell&quot;&gt;
+module Main where
+
+main :: IO ()
+main = putStrLn &quot;Hello, World!&quot;
+&lt;/source&gt;The [[factorial]] function in Haskell, defined in a few different ways (the type annotation is optional):
+&lt;source lang=&quot;haskell&quot;&gt;
+-- Type annotation (optional, same for each implementation)
+factorial :: (Integral a) =&gt; a -&gt; a
+
+-- Using recursion (with the &quot;ifthenelse&quot; expression)
+factorial n = if n &lt; 2
+              then 1
+              else n * factorial (n - 1)
+
+-- Using recursion (with pattern matching)
+factorial 0 = 1
+factorial n = n * factorial (n - 1)
+
+-- Using recursion (with guards)
+factorial n
+   | n &lt; 2     = 1
+   | otherwise = n * factorial (n - 1)
+
+-- Using a list and the &quot;product&quot; function
+factorial n = product [1..n]
+
+-- Using fold (implements &quot;product&quot;)
+factorial n = foldl (*) 1 [1..n]
+
+-- Point-free style
+factorial = foldr (*) 1 . enumFromTo 1
+&lt;/source&gt;
+
+An efficient implementation of the [[Fibonacci numbers]] as an [[infinite list]]:
+&lt;source lang=&quot;haskell&quot;&gt;
+-- Type annotation (optional, same for each implementation)
+fib :: Int -&gt; Integer
+
+-- With self-referencing data
+fib n = fibs !! n
+        where fibs = 0 : scanl (+) 1 fibs
+        -- 0,1,1,2,3,5,...
+
+-- Same, coded directly
+fib n = fibs !! n
+        where fibs = 0 : 1 : next fibs
+              next (a : t@(b:_)) = (a+b) : next t
+
+-- Similar idea, using zipWith
+fib n = fibs !! n
+        where fibs = 0 : 1 : zipWith (+) fibs (tail fibs)
+
+-- Using a generator function
+fib n = fibs (0,1) !! n
+        where fibs (a,b) = a : fibs (b,a+b)
+&lt;/source&gt;
+
+The ''Int'' type refers to a machine-sized integer (used as a list subscript with the !! operator), while ''Integer'' is an [[arbitrary-precision]] integer. For example, using ''Integer'', the factorial code above easily computes &lt;code&gt;factorial 100000&lt;/code&gt; as a number of 456,574 digits, with no loss of precision.
+
+An implementation of an algorithm similar to [[quick sort]] over lists, where the first element is taken as the pivot:
+
+&lt;source lang=&quot;haskell&quot;&gt;
+-- Type annotation (optional, same for each implementation)
+quickSort :: Ord a =&gt; [a] -&gt; [a]
+
+-- Using list comprehensions
+quickSort []     = []                               -- The empty list is already sorted
+quickSort (x:xs) = quickSort [a | a &lt;- xs, a &lt; x]   -- Sort the left part of the list
+                   ++ [x] ++                        -- Insert pivot between two sorted parts
+                   quickSort [a | a &lt;- xs, a &gt;= x]  -- Sort the right part of the list
+
+-- Using filter
+quickSort []     = []
+quickSort (x:xs) = quickSort (filter (&lt;x) xs)
+                   ++ [x] ++
+                   quickSort (filter (&gt;=x) xs)
+&lt;/source&gt;
+
+==Implementations==
+&lt;!-- To anyone wishing to expand or improve this section: the article &quot;A History of Haskell: Being Lazy With Class&quot;, linked to in the Further reading section contains detailed descriptions of all implementations. --&gt;
+All listed implementations are distributed under [[open source]] licenses.&lt;ref name=&quot;implementations&quot;&gt;[http://www.haskell.org/haskellwiki/Implementations &quot;Implementations&quot;] at the Haskell Wiki&lt;/ref&gt;
+
+Implementations which comply fully, or very nearly, with the Haskell 98 standard, include:
+* The ''[[Glasgow Haskell Compiler]]'' (GHC) compiles to native code on many different processor architectures, and to [[ANSI C]], via one of two [[intermediate language]]s: [[C--]], or in more recent versions, [[LLVM]] (formerly Low Level Virtual Machine) bitcode.&lt;ref&gt;{{cite web|
+url=https://ghc.haskell.org/trac/ghc/wiki/Commentary/Compiler/Backends/LLVM|
+title=The LLVM Backend|
+website=GHC Trac}}&lt;/ref&gt;&lt;ref&gt;{{cite conference 
+| url = http://www.cse.unsw.edu.au/~chak/papers/TC10.html
+| title = An LLVM Backend for GHC
+| last1 = Terei
+| first1 = David A.
+| last2 = Chakravarty
+| first2 = Manuel M. T.
+| date = 2010
+| publisher = ACM Press
+| book-title = Proceedings of ACM SIGPLAN Haskell Symposium 2010}}&lt;/ref&gt; GHC has become the ''de facto'' standard Haskell dialect.&lt;ref&gt;C. Ryder and S. Thompson (2005). [http://kar.kent.ac.uk/14237/1/Tech_Chris.pdf &quot;Porting HaRe to the GHC API&quot;]&lt;/ref&gt; There are libraries (e.g., bindings to [[OpenGL]]) that work only with GHC. GHC is also distributed with the [[Haskell platform]].
+* The ''Utrecht Haskell Compiler'' (UHC) is a Haskell implementation from [[Utrecht University]].&lt;ref&gt;[http://www.cs.uu.nl/wiki/UHC Utrecht Haskell Compiler]&lt;/ref&gt; It supports almost all Haskell 98 features plus many experimental extensions. It is implemented using [[attribute grammar]]s and is currently used mostly for research on generated type systems and language extensions.
+* ''Jhc'', a Haskell compiler written by John Meacham, emphasizes speed and efficiency of generated programs and exploring new program transformations. 
+** ''Ajhc'' is a fork of Jhc.
+* ''LHC'' is a whole-program optimizing backend for GHC, based on Urban Boquist's compiler intermediate language, GRIN.&lt;ref&gt;{{cite journal |last=Boquist |first=Urban |author2=Johnsson, Thomas |title=The GRIN Project: A Highly Optimising Back End for Lazy Functional Languages |journal=LNCS |year=1996 |volume=1268 |pages=58-84}}&lt;/ref&gt; Older versions of LHC were based on Jhc rather than GHC.
+
+Implementations no longer actively maintained include:
+* The ''Haskell User's Gofer System'' ([[Hugs]]) is a [[bytecode]] interpreter. It used to be one of the implementations used most widely, alongside the GHC compiler,{{sfn|Hudak|Hughes|Peyton Jones|Wadler|2007|p=12-22}} but has now been mostly replaced by GHCi. It also comes with a graphics library.
+* ''nhc98'' is a bytecode compiler focusing on minimizing memory use.
+** The ''York Haskell Compiler'' ([[Yhc]]) was a fork of nhc98, with the goals of being simpler, more portable and efficient, and integrating support for Hat, the Haskell tracer. It also had a [[JavaScript]] backend, allowing users to run Haskell programs in [[web browser]]s.
+* ''HBC'' is an early implementation supporting Haskell 1.4. It was implemented by [[Lennart Augustsson]] in, and based on, [[Lazy ML]]. It has not been actively developed for some time.
+
+Implementations not fully Haskell 98 compliant, and using a variant Haskell language, include:
+* ''[[Gofer (software)|Gofer]]'' was an educational dialect of Haskell, with a feature called ''constructor classes'', developed by Mark Jones. It was supplanted by Hugs (see above).
+* ''[[Helium (Haskell)|Helium]]'' is a newer dialect of Haskell. The focus is on making learning easier via clearer error messages. It currently lacks full support for type classes, rendering it incompatible with many Haskell programs.
+
+==Applications==
+* [[Darcs]] is a [[revision control system]] written in Haskell, with several innovative features, such as more precise control of the patches to be applied.
+* [[Cabal (software)|Cabal]] is a tool for [[Build automation|building]] and packaging Haskell libraries and programs.&lt;ref&gt;{{cite web|url=https://www.haskell.org/cabal/|title=The Haskell Cabal|accessdate=8 April 2015}}&lt;/ref&gt;
+* [[Linspire]] GNU/Linux chose Haskell for system tools development.&lt;ref&gt;{{cite web|url=http://urchin.earth.li/pipermail/debian-haskell/2006-May/000169.html|title=Linspire/Freespire Core OS Team and Haskell|work=Debian Haskell mailing list|date=May 2006}}&lt;/ref&gt;
+* [[Xmonad]] is a [[window manager]] for the [[X Window System]], written fully in Haskell.&lt;ref&gt;xmonad.org&lt;/ref&gt;
+* [[Glasgow Haskell Compiler|GHC]] is also often a testbed for advanced functional programming features and optimizations in other programming languages.
+* [[Pandoc]] is a tool to convert one markup format into another.
+* The Shake build system, aiming to be reliable, robust and fast.&lt;ref&gt;[http://shakebuild.com/ Shake Build System]&lt;/ref&gt;
+
+===Industry===
+* [[Facebook]] implements its anti-spam programs&lt;ref&gt;{{cite web |title = Facebook's New Spam-Killer Hints at the Future of Coding |url = https://www.wired.com/2015/09/facebooks-new-anti-spam-system-hints-future-coding/ |accessdate = September 1, 2015 |date = September 1, 2015 |website = [[Wired (magazine)|Wired]] |publisher = |last = Metz |first = Cade}}&lt;/ref&gt; in Haskell, as [[open-source software]].&lt;ref&gt;[https://code.facebook.com/posts/302060973291128/open-sourcing-haxl-a-library-for-haskell/ Simon Marlow (2014),  Open-sourcing Haxl]&lt;/ref&gt;
+* [[Bluespec, Inc.|Bluespec]] SystemVerilog (BSV) is a language for semiconductor design that is an extension of Haskell. Also, Bluespec, Inc.'s tools are implemented in Haskell.
+* [[Cryptol]], a language and toolchain for developing and verifying [[cryptography]] algorithms, is implemented in Haskell.
+* The first [[Formal methods|formally verified]] [[microkernel]],&lt;ref name=&quot;klein-sosp09&quot;&gt;
+A formal proof of functional correctness was completed in 2009.
+{{ cite conference
+ | first1 = Gerwin
+ | last1 = Klein
+ | first2 = Kevin
+ | last2 = Elphinstone
+ | first3 = Gernot
+ | last3 = Heiser
+ | author3-link = Gernot Heiser
+ | first4 = June
+ | last4 = Andronick
+ | first5 = David
+ | last5 = Cock
+ | first6 = Philip
+ | last6 = Derrin
+ | first7 = Dhammika
+ | last7 = Elkaduwe
+ | first8 = Kai
+ | last8 = Engelhardt
+ | first9 = Rafal
+ | last9 = Kolanski
+ | first10 = Michael
+ | last10 = Norrish
+ | first11 = Thomas
+ | last11 = Sewell
+ | first12 = Harvey
+ | last12 = Tuch
+ | first13 = Simon
+ | last13 = Winwood
+ | title = seL4: Formal verification of an OS kernel
+ | booktitle = 22nd ACM Symposium on Operating System Principles
+ |date=October 2009
+ | location = Big Sky, MT, USA
+ | doi =
+ | url = http://www.sigops.org/sosp/sosp09/papers/klein-sosp09.pdf
+}}
+&lt;/ref&gt; [[SeL4#Current research and development|seL4]], used Haskell as a prototyping language for the OS developer.&lt;ref name=&quot;klein-sosp09&quot;/&gt;{{rp|p.2}} At the same time the Haskell code defined an executable specification with which to reason, for automatic translation by the theorem-proving tool.&lt;ref name=&quot;klein-sosp09&quot;/&gt;{{rp|p.3}} The Haskell code thus served as an intermediate prototype before final [[C (programming language)|C]] refinement.&lt;ref name=&quot;klein-sosp09&quot;/&gt;{{rp|p.3}}
+
+===Web===
+Haskell [[web framework]]s exist,&lt;ref&gt;{{cite web|url=http://www.haskell.org/haskellwiki/Web/Frameworks|title=Web/Frameworks|publisher=}}&lt;/ref&gt; including:
+* [[Yesod (web framework)|Yesod]]
+* [[Happstack]]
+* [[Snap (web framework)|Snap]]&lt;ref&gt;{{cite web|url=http://snapframework.com/ |title=Snap: A Haskell Web Framework: Home |publisher=Snapframework.com |accessdate=2013-06-26}}&lt;/ref&gt;
+
+==Criticism==
+
+Jan-Willem Maessen, in 2002, and [[Simon Peyton Jones]], in 2003, discussed problems associated with lazy evaluation while also acknowledging the theoretical motives for it,&lt;ref&gt;Jan-Willem Maessen. ''Eager Haskell: Resource-bounded execution yields efficient iteration''. Proceedings of the 2002 [[Association for Computing Machinery]] (ACM) SIGPLAN workshop on Haskell.&lt;/ref&gt;&lt;ref&gt;Simon Peyton Jones. [http://research.microsoft.com/~simonpj/papers/haskell-retrospective ''Wearing the hair shirt: a retrospective on Haskell'']. Invited talk at [[POPL]] 2003.&lt;/ref&gt; in addition to purely practical considerations such as improved performance.&lt;ref&gt;{{cite web|url=http://www.haskell.org/pipermail/haskell/2006-June/018127.html|title=Lazy evaluation can lead to excellent performance, such as in The Computer Language Benchmarks Game}}&lt;/ref&gt; They note that, in addition to adding some performance overhead, lazy evaluation makes it more difficult for programmers to reason about the performance of their code (particularly its space use).
+
+Bastiaan Heeren, Daan Leijen, and Arjan van IJzendoorn in 2003 also observed some stumbling blocks for Haskell learners: &quot;The subtle syntax and sophisticated type system of Haskell are a double edged sword - highly appreciated by experienced programmers but also a source of frustration among beginners, since the generality of Haskell often leads to cryptic error messages.&quot;&lt;ref&gt;{{cite journal|first1=Bastiaan |last1=Heeren |first2=Daan |last2=Leijen |first3=Arjan |last3=van IJzendoorn|year=2003|title=Helium, for learning Haskell|journal=Proceedings of the 2003 [[Association for Computing Machinery|ACM]] [[SIGPLAN]] workshop on Haskell|url=http://www.cs.uu.nl/~bastiaan/heeren-helium.pdf}}&lt;/ref&gt; To address these, researchers from Utrecht University developed an advanced interpreter called [[Helium (Haskell)|Helium]] which improved the user-friendliness of error messages by limiting the generality of some Haskell features, and in particular removing support for [[type class]]es.
+
+Ben Lippmeier designed Disciple&lt;ref&gt;{{cite web|url=http://www.haskell.org/haskellwiki/DDC |title=DDC - HaskellWiki |publisher=Haskell.org |date=2010-12-03 |accessdate=2013-06-26}}&lt;/ref&gt; as a [[evaluation strategy|strict-by-default]] (lazy by explicit annotation) dialect of Haskell with a type-and-effect system, to address Haskell's difficulties in reasoning about lazy evaluation and in using traditional data structures such as mutable arrays.&lt;ref&gt;Ben Lippmeier, [http://www.cse.unsw.edu.au/~benl/papers/thesis/lippmeier-impure-world.pdf Type Inference and Optimisation for an Impure World], [[Australian National University]] (2010) PhD thesis, chapter 1&lt;/ref&gt;  He argues (p.&amp;nbsp;20) that &quot;destructive update furnishes the programmer with two important and powerful tools... a set of efficient array-like data structures for managing collections of objects, and ... the ability to broadcast a new value to all parts of a program with minimal burden on the programmer.&quot;
+
+[[Robert Harper (computer scientist)|Robert Harper]], one of the authors of [[Standard ML]], has given his reasons for not using Haskell to teach introductory programming. Among these are the difficulty of reasoning about resource use with non-strict evaluation, that lazy evaluation complicates the definition of data types and inductive reasoning,&lt;ref&gt;{{cite web|url=http://existentialtype.wordpress.com/2011/04/24/the-real-point-of-laziness/|title=The point of laziness|author=Robert Harper}}
+&lt;/ref&gt; and the &quot;inferiority&quot; of Haskell's (old) class system compared to ML's module system.&lt;ref&gt;{{cite web|url=http://existentialtype.wordpress.com/2011/04/16/modules-matter-most/|author=Robert Harper|title=Modules matter most.}}
+&lt;/ref&gt;
+
+It was consistently criticised  by developers due to the lack of good management of different versions of a particular library by default build tool, Cabal.{{citation needed|date=November 2016}} Although this has been addressed{{citation needed|date=November 2016}} by the release of the [[Stack (Haskell)|Stack]], cabal continues to be shipped as the default build tool.
+
+==Related languages==
+[[Clean (programming language)|Clean]] is a close, slightly older relative of Haskell. Its biggest deviation from Haskell is in the use of [[uniqueness type]]s instead of monads for I/O and side-effects.
+
+A series of languages inspired by Haskell, but with different type systems, have been developed, including:
+* [[Agda (theorem prover)|Agda]], a functional language with [[dependent type]]s
+* [[Idris (programming language)|Idris]], a general purpose functional language with [[dependent type]]s, developed at the [[University of St Andrews]]
+* [[Epigram (programming language)|Epigram]], a functional language with dependent types suitable for proving properties of programs
+* [[Cayenne (programming language)|Cayenne]], with [[dependent type]]s
+* [[?mega]], strict and more
+* [[Elm (programming language)|Elm]], a functional  language to create web front-end apps, no support for higher-kinded types
+* [[PureScript (programming language)|PureScript]], a small strongly typed programming language that compiles to JavaScript
+
+[[Java virtual machine]] (JVM) based:
+* [[Frege (programming language)|Frege]], a Haskell-like language with Java's [[Scalar (computing)|scalar]] types and good Java integration.&lt;ref name=&quot;frege&quot;&gt;{{cite web|url=http://fregepl.blogspot.com|title=Frege Programming Language|publisher=}}&lt;/ref&gt;&lt;ref name=&quot;frege-wiki&quot;&gt;{{cite web|url=http://code.google.com/p/frege/|title=Google Code Archive - Long-term storage for Google Code Project Hosting.|publisher=}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=http://mmhelloworld.blogspot.com.es/2012/02/hello-world-frege.html|title=mmhelloworld|author=Marimuthu Madasamy|publisher=}}&lt;/ref&gt;
+* [[Jaskell]], a functional [[scripting language]] that runs in Java VM.&lt;ref&gt;{{cite web|url=http://jaskell.codehaus.org/|title=Codehaus|publisher=}}&lt;/ref&gt;
+* Eta-lang, which intends to be Haskell on the JVM
+
+Other related languages include:
+* [[Curry (programming language)|Curry]], a functional/logic programming language based on Haskell
+
+Haskell has served as a testbed for many new ideas in language design. There have been many Haskell variants produced, exploring new language ideas, including:
+* Parallel Haskell:
+** From [[Glasgow University]], supports clusters of machines or single multiprocessors.&lt;ref&gt;{{cite web|url=http://www.macs.hw.ac.uk/~dsg/gph/|title=Glasgow Parallel Haskell|publisher=}}&lt;/ref&gt;&lt;ref&gt;{{cite web|url=http://www.haskell.org/ghc/docs/6.6/html/users_guide/lang-parallel.html|title=7.15.&amp;nbsp;Parallel Haskell|publisher=}}&lt;/ref&gt; Also within Haskell is support for Symmetric Multiprocessor parallelism.&lt;ref&gt;{{cite web|url=http://www.haskell.org/ghc/docs/6.6/html/users_guide/sec-using-smp.html|title=4.12.&amp;nbsp;Using SMP parallelism|publisher=}}&lt;/ref&gt;
+** From [[Massachusetts Institute of Technology|MIT]]&lt;ref&gt;{{cite web|url=http://csg.csail.mit.edu/projects/languages/ph.shtml|title=Computation Structures Group- MIT- LCS|author=Todd Allen Amicon|publisher=}}&lt;/ref&gt;
+* Distributed Haskell (formerly Goffin) and Eden.{{Citation needed|date=April 2009}}
+* Eager Haskell, based on [[speculative execution|speculative evaluation]].
+* Several [[object-oriented programming|object-oriented]] versions: Haskell++, and Mondrian.
+* [[generic programming#Generic Haskell|Generic Haskell]], a version of Haskell with type system support for [[generic programming]].
+* O'Haskell, an extension of Haskell adding [[object-oriented programming|object-orientation]] and [[concurrent programming]] support which &quot;has ... been superseded by [[Timber (programming language)|Timber]].&quot;&lt;ref&gt;{{cite web|url=http://www.haskell.org/haskellwiki/O%27Haskell|title=O'Haskell|publisher=}}&lt;/ref&gt;
+* Disciple, a strict-by-default (laziness available by annotation) dialect of Haskell which supports destructive update, computational effects, type directed field projections and allied functional aspects.
+* [[Hume (programming language)|Hume]], a strict functional language for [[embedded system]]s based on processes as stateless automata over a sort of tuples of one element mailbox channels where the state is kept by feedback into the mailboxes, and a mapping description from outputs to channels as box wiring, with a Haskell-like expression language and syntax.
+
+==Conferences and workshops==
+The Haskell community meets regularly for research and development activities. The main events are:
+* [[International Conference on Functional Programming]] (ICFP)
+* [[Haskell Symposium]] (formerly the Haskell Workshop)
+* Haskell Implementors Workshop
+* [[Commercial Users of Functional Programming]] (CUFP)
+
+Since 2006, a series of organized ''hackathons'' has occurred, the Hac series, aimed at improving the programming language tools and libraries.&lt;ref&gt;{{cite web |title=Hackathon - HaskellWiki |url=http://haskell.org/haskellwiki/Hackathon}}&lt;/ref&gt;
+
+== Haskell Base library and algebra ==
+
+As Haskell separates domains (types) and behaviour ([[type class]]es) you may find correspondences with the algebra world that underlies the standard typeclasses of the Haskell basic library.
+
+The ''Num'' class has the operation signatures required for a [[Ring (mathematics)|Ring]], except for the (+) and (*) neutral elements, which are predefined as literals.&lt;ref&gt;[http://hackage.haskell.org/package/base/docs/Prelude.html#t:Num The Num type class]&lt;/ref&gt;
+
+Operation laws like (+) and (*) associativity and addition conmutativity are not related with the typeclass, but rather proofs to be checked on the instances.
+ 
+&lt;source lang=&quot;haskell&quot;&gt;
+$ ghci
+Prelude&gt; :type 0
+0 :: Num a =&gt; a         -- 0 belongs to any type that has a Num instance, a Ring
+Prelude&gt; :type 1
+1 :: Num a =&gt; a         -- neutral for the product of a type that implements Num
+&lt;/source&gt;
+
+The ''Word'' data types (Word, WordN) implement the ''Num'' type class with [[modular arithmetic]] whereas the data types Int and IntN use [[two's complement]] [[arithmetic]] that does not match the [[decimal arithmetic]] (see [[Integer overflow]]):
+
+&lt;source lang=&quot;haskell&quot;&gt;
+Prelude&gt; maxBound::Int
+9223372036854775807
+Prelude&gt; (maxBound::Int) +1    -- two's complement Int addition (it doesn't throw exceptions)
+-9223372036854775808
+Prelude&gt; (maxBound::Int) *2    -- two's complement Int product (no exceptions either)
+-2
+&lt;/source&gt;
+Possible workarounds to make it match with regular [[arithmetic]], throwing an exception on overflow, are
+* to check the addition result for same ''signum'' {-1,0,1} with the operands when operand signs match;&lt;ref&gt;[http://hackage.haskell.org/package/base/docs/Prelude.html#v:signum Num typeclass ''signum'' function]&lt;/ref&gt;&lt;ref name=&quot;safe-int-addition&quot;&gt;[https://www.schoolofhaskell.com/user/griba/safe_int_addition_and_product SchoolOfHaskell.com - Safe Int addition and product]&lt;/ref&gt; or
+* to perform the operation with unlimited precision, checking the typecasted result.&lt;ref name=&quot;safe-int-addition&quot;/&gt; 
+
+The ''Fractional'' type class adds to Num the [[multiplicative inverse]] in the ''recip'' function (for &quot;reciprocal&quot;) and, as a consequence, the [[Division (mathematics)|division]]. It corresponds to a [[Field (mathematics)|Field]].&lt;ref&gt;[http://hackage.haskell.org/package/base/docs/Prelude.html#t:Fractional The Fractional type class]&lt;/ref&gt;
+
+The ''Real'' type class requires Num and Ord, corresponds to an [[Ordered ring]],&lt;ref&gt;[http://hackage.haskell.org/package/base/docs/Prelude.html#t:Real The Real type class]&lt;/ref&gt; which serves to [[Integer number]]s, [[Rational number|Rational]]&lt;ref&gt;[http://hackage.haskell.org/package/base/docs/Data-Ratio.html The Rational numbers module]&lt;/ref&gt; and [[Floating point]] numbers.&lt;ref name=&quot;prelude-float&quot;&gt;[http://hackage.haskell.org/package/base/docs/Prelude.html#t:Float The Float data type]&lt;/ref&gt;
+
+The ''Integral'' type class adds operations for [[Euclidean division]] to the required ''Real'' and ''Enum'' classes, corresponding to a [[Euclidean ring]] which is an [[integral ring]].&lt;ref&gt;[http://hackage.haskell.org/package/base/docs/Prelude.html#t:Integral The Integral type class]&lt;/ref&gt;
+
+The ''Floating'' type class adds to ''Fractional'' the [[calculus]] functions (''sqrt'', [[trigonometric functions]], [[logarithm]]s) common to [[floating point]] (Float, Double) and [[Complex number|complex]] numbers.&lt;ref name=&quot;prelude-floating&quot;&gt;[http://hackage.haskell.org/package/base/docs/Prelude.html#t:Floating The Floating type class]&lt;/ref&gt;&lt;ref name=&quot;prelude-float&quot;/&gt;&lt;ref&gt;[http://hackage.haskell.org/package/base/docs/Data-Complex.html#t:Complex The Complex data type]&lt;/ref&gt;
+
+[[Exponentiation]] comes in three flavours:
+
+{{unordered list
+| A positive integer exponent requires that the base domain has the product (specified in ''Num'', signature of a [[Ring (mathematics)|ring]]):
+&lt;source lang=&quot;haskell&quot;&gt;
+(^) :: (Num a, Integral ex) =&gt; a -&gt; ex -&gt; a    -- (^) admits non-negative exponents of an euclidean domain, throws an error if the exponent is negative
+&lt;/source&gt;
+| A negative integer exponent requires that the base domain has the [[multiplicative inverse]] (specified in ''Fractional'', signature of a [[Field (mathematics)|field]]):
+&lt;source lang=&quot;haskell&quot;&gt;
+(^^) :: (Fractional a, Integral ex) =&gt; a -&gt; ex -&gt; a   -- (^^) admits all exponents of an euclidean domain
+&lt;/source&gt;
+| A [[floating point]] exponent requires that the base domain has the floating point [[exponentiation]] and [[logarithm]] functions, as specified in the ''Floating'' type class:&lt;ref name=&quot;prelude-floating&quot;/&gt;
+&lt;source lang=&quot;haskell&quot;&gt;
+(**) :: (Floating a, Floating ex) =&gt; a -&gt; ex -&gt; a
+&lt;/source&gt;}}
+
+Conversions between Euclidean types preserve the representation, not the value. Numeric type downcasting does not throw an overflow exception:
+&lt;source lang=&quot;haskell&quot;&gt;
+$ ghci
+Prelude&gt; import Data.Int
+Prelude Data.Int&gt; fromIntegral (32767 :: Int16) :: Int8
+-1
+Prelude Data.Int&gt; fromInteger (2^64 :: Integer) :: Int32
+0
+&lt;/source&gt;
+
+==Notes==
+{{reflist|group=lower-alpha}}
+
+==References==
+{{Reflist|30em}}
+
+==Further reading==
+; Reports
+* {{cite book| editor-first = Simon| editor-last = Peyton Jones| editor-link = Simon Peyton Jones| title = Haskell 98 Language and Libraries: The Revised Report| url = http://haskell.org/onlinereport/| year = 2003| publisher = Cambridge University Press| isbn = 0521826144| ref = harv}}
+* {{cite book| editor-first = Simon| editor-last = Marlow| editor-link = Simon Marlow| title = Haskell 2010 Language Report| url= https://www.haskell.org/definition/haskell2010.pdf| year = 2010| publisher = Haskell.org | ref = harv}}
+; Textbooks
+*{{cite book|first=Antony|last=Davie|title=An Introduction to Functional Programming Systems Using Haskell|publisher=Cambridge University Press|year=1992|isbn=0-521-25830-8}}
+*{{cite book|first=Richard|last=Bird|authorlink=Richard Bird (computer scientist)|title=Introduction to Functional Programming using Haskell|edition=2nd|publisher=Prentice Hall Press|year=1998|isbn=0-13-484346-0|url=http://www.cs.ox.ac.uk/publications/books/functional/}}
+*{{cite book|first=Paul|last=Hudak|authorlink=Paul Hudak|title=The Haskell School of Expression: Learning Functional Programming through Multimedia|publisher=Cambridge University Press|location=New York|year=2000|isbn=0521643384|url=http://www.cs.yale.edu/homes/hudak/SOE/}}
+*{{cite book|first=Graham|last=Hutton|authorlink=Graham Hutton|title=Programming in Haskell|year=2007|publisher=Cambridge University Press|isbn=0521692695|url=http://www.cs.nott.ac.uk/~gmh/book.html}}
+*{{Cite book|first1=Bryan|last1=O'Sullivan|authorlink1=Bryan O'Sullivan (computer programmer)|first2=Don|last2=Stewart|authorlink2=Don Stewart (computer programmer)|last3=Goerzen|first3=John|authorlink3=John Goerzen|title=[[Real World Haskell]]|year=2008|publisher=O'Reilly|location=Sebastopol|isbn=0-596-51498-0|postscript=&amp;nbsp;([http://book.realworldhaskell.org/read/ full text])}}
+*{{cite book|first=Simon|last=Thompson|title=Haskell: The Craft of Functional Programming|edition=3rd|publisher=Addison-Wesley|year=2011|isbn=0201882957|url=http://www.haskellcraft.com/}}
+*{{cite book|last=Lipovaca|first=Miran |title=Learn You a Haskell for Great Good!|url=http://learnyouahaskell.com/|date=April 2011|publisher=No Starch Press|location=San Francisco|isbn=978-1-59327-283-8}} ([http://learnyouahaskell.com/chapters full text])
+*{{cite book|first=Richard|last=Bird|authorlink=Richard Bird (computer scientist)|title=Thinking Functionally with Haskell |publisher=Cambridge University Press|year=2014|isbn= 978-1-107-45264-0}}
+; Tutorials
+*{{cite web|url=http://haskell.org/tutorial/|title=A Gentle Introduction To Haskell, Version 98|date=June 2000|first1=Paul |last1=Hudak |first2=John |last2=Peterson |first3=Joseph |last3=Fasel|work=Haskell.org}}
+*[http://hal3.name/docs/daume02yaht.pdf Yet Another Haskell Tutorial], by Hal Daume III; assumes far less prior knowledge than official tutorial
+*{{Cite journal|last=Yorgey|first=Brent|date=12 March 2009|title=The Typeclassopedia|journal=The Monad.Reader|issue=13|pages=17-68|url=http://www.haskell.org/wikiupload/8/85/TMR-Issue13.pdf|postscript=&lt;!-- Bot inserted parameter. Either remove it; or change its value to &quot;.&quot; for the cite to end in a &quot;.&quot;, as needed. --&gt;{{inconsistent citations}}}}
+; History
+* {{cite journal| first1 = Paul| last1 = Hudak| authorlink1 = Paul Hudak| first2 = John| last2 = Hughes| authorlink2 = John Hughes (computer scientist)| first3 = Simon| last3 = Peyton Jones| authorlink3 = Simon Peyton Jones| first4 = Philip| last4 = Wadler| authorlink4 = Philip Wadler| title = A History of Haskell: Being Lazy with Class| url = http://research.microsoft.com/~simonpj/papers/history-of-haskell/history.pdf | doi = 10.1145/1238844.1238856| year = 2007| journal = Proceedings of the third ACM [[SIGPLAN]] conference on History of programming languages ([[HOPL]] III)| pages = 12-1-55| isbn = 978-1-59593-766-7|ref=harv}}
+* {{cite journal|last=Hamilton|first=Naomi|date=19 September 2008|title=The A-Z of Programming Languages: Haskell|journal=[[Computerworld]]|url=http://www.computerworld.com.au/article/261007/a-z_programming_languages_haskell/}}
+
+==External links==
+{{Wikibooks|Haskell}}
+{{Wikibooks|Write Yourself a Scheme in 48 Hours}}
+*{{Official website}}
+*[https://wiki.haskell.org/ Haskell Wiki]
+*[https://planet.haskell.org/ Planet Haskell] an aggregator of Haskell related blogs and other Haskell-related news sites
+*[http://hackage.haskell.org/ Hackage] - central package archive
+*[https://www.haskell.org/hoogle/ Hoogle] - API search engine
+;Tutorials
+*[http://tryhaskell.org/ Try Haskell!] - in-browser interactive tutorial
+*[https://www.fpcomplete.com/school School of Haskell] - online tutorials
+*[http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html Functors, Applicatives, And Monads In Pictures]
+*[http://book.realworldhaskell.org/read/ Real World Haskell] - free to read online
+;Miscellaneous
+*[http://themonadreader.wordpress.com/ The Monad.Reader] - quarterly magazine on Haskell topics
+*[http://www.willamette.edu/~fruehr/haskell/evolution.html The Evolution of a Haskell Programmer] - slightly humorous overview of different programming styles in Haskell
+
+{{Authority control}}
+
+{{use dmy dates|date=March 2012}}
+
+{{Programming languages}}
+
+[[Category:Academic programming languages]]
+[[Category:Articles with example Haskell code]]
+[[Category:Educational programming languages]]
+[[Category:Functional languages]]
+[[Category:Haskell programming language family| ]]
+[[Category:Literate programming]]
+[[Category:Pattern matching programming languages]]
+[[Category:Programming languages created in 1990]]
+[[Category:Statically typed programming languages]]</text>
+      <sha1>38rsnxdtvskrt5j7m0fxgngzl3t1tx5</sha1>
+    </revision>
+  </page>
+</mediawiki>

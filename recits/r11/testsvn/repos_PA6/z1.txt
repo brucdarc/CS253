@@ -1,0 +1,9 @@
+If you look at the "Very Large Numbers" @164 post, you will see that getting both 569 and 581 are likely to be acceptable solutions, the current hypothesis being that the difference between results is caused by how each of us handled empty preceders with Porter's Algorithm. 
+
+ 
+
+For example, I had 581..., but Jason and Amber both had 569... .
+
+ 
+
+So I think you're fine, due to the instructor's conclusion on empty preceders (since there was no explicit description of how to handle them, it's up to the programmer). 
